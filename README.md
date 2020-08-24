@@ -12,7 +12,9 @@ npm run watch:sass
 ```
 ## Recommended Editor and Extensions 🧰
 [Visual Studio Code](https://code.visualstudio.com/)
+
 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
 [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ## SASS Folder Structure
