@@ -4,7 +4,7 @@
 This step assumes that you already have NodeJS and NPM installed. If not, go to [NodeJS](http://nodejs.org/) website and download the latest LTS build.
 Once done, follow the below commands :
 ```
-git clone https://github.com/itsnitinr/ecell-website.git
+git clone https://github.com/ECell-SLRTCE/ecell-website.git
 cd ecell-website
 
 npm install
