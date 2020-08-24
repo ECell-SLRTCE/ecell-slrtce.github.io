@@ -1,0 +1,14 @@
+{
+  "name": "ecell-slrtce",
+  "version": "1.0.0",
+  "description": "Website for Entrepreneurship Cell of SLRTCE",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Nitin Ranganath",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
