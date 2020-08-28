@@ -1,27 +1,27 @@
 // Styling related to fonts go here
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway&display=swap");
-section {
-  .section-header {
+.section {
+  &-header {
     text-align: center;
     padding: 3.25rem;
     font-family: "Montserrat", sans-serif;
-    .section-title {
-      font-size: 3.75rem;
-      font-family: "Raleway", sans-serif;
-      color: $heading;
-      margin-bottom: 0.25rem;
-    }
-    .section-tagline {
-      font-size: 1.25rem;
-      color: $heading-sub;
-      font-weight: 800;
-      margin-bottom: 1.25rem;
-    }
-    .section-hr {
-      width: 6.75rem;
-      height: 0.3125rem;
-      background: $accent-color;
-      margin: 0 auto;
-    }
+  }
+  &-title {
+    font-size: 3.75rem;
+    font-family: "Raleway", sans-serif;
+    color: $heading;
+    margin-bottom: 0.25rem;
+  }
+  &-tagline {
+    font-size: 1.25rem;
+    color: $heading-sub;
+    font-weight: 800;
+    margin-bottom: 1.25rem;
+  }
+  &-hr {
+    width: 6.75rem;
+    height: 0.3125rem;
+    background: $accent-color;
+    margin: 0 auto;
   }
 }

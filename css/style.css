@@ -7,26 +7,28 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-section .section-header {
+.section-header {
   text-align: center;
   padding: 3.25rem;
   font-family: "Montserrat", sans-serif; }
-  section .section-header .section-title {
-    font-size: 3.75rem;
-    font-family: "Raleway", sans-serif;
-    color: #ee6f57;
-    margin-bottom: 0.25rem; }
-  section .section-header .section-tagline {
-    font-size: 1.25rem;
-    color: #52575d;
-    font-weight: 800;
-    margin-bottom: 1.25rem; }
-  section .section-header .section-hr {
-    width: 6.75rem;
-    height: 0.3125rem;
-    background: #ee6f57;
-    margin: 0 auto; }
+
+.section-title {
+  font-size: 3.75rem;
+  font-family: "Raleway", sans-serif;
+  color: #ee6f57;
+  margin-bottom: 0.25rem; }
+
+.section-tagline {
+  font-size: 1.25rem;
+  color: #52575d;
+  font-weight: 800;
+  margin-bottom: 1.25rem; }
+
+.section-hr {
+  width: 6.75rem;
+  height: 0.3125rem;
+  background: #ee6f57;
+  margin: 0 auto; }
 
 .about {
-  background-color: #111111;
-  font-family: "Montserrat", sans-serif; }
+  background-color: #111111; }
