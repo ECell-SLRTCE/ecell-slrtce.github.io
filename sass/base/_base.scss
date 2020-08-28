@@ -1,5 +1,10 @@
-// Styling related to the whole HTML go here
+// Styling related to the whole HTML go heres
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  // 16px == 1rem
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
