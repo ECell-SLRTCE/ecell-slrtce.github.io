@@ -1,1 +1,65 @@
 // Header styling goes here
+@import "../abstracts/variables";
+.header__content {
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../../sass/layout/Background_Header.jpg");
+  background-color: #000000;
+  background-size: cover;
+  & i {
+    margin: 0.7rem;
+    border-radius: 40%;
+  }
+  & .header__titlename {
+    text-align: center;
+    font-family: $fontstyle;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5rem;
+    color: $textcolor;
+  }
+  & .header__know {
+    font-family: $fontstyle;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    color: $textcolor;
+    background: rgba(0, 0, 0, 0);
+    padding: 2rem 4rem 2rem 4rem;
+    border-width: 0.3rem;
+    border-color: $textcolor;
+    border-style: solid;
+    border-spacing: 0.3rem;
+    margin: 3rem;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+  & .header__socialmedia {
+    text-align: center;
+    color: $textcolor;
+    font-family: $fontstyle;
+    font-size: 2rem;
+    border-width: 0.3rem;
+    & a {
+      border-radius: 40%;
+    }
+    a:hover {
+      transition: 0.3s;
+      color: black;
+      background-color: $textcolor;
+      border-color: $textcolor;
+    }
+  }
+}
