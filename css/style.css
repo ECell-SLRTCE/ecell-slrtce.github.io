@@ -1,58 +1,53 @@
-.header__content {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  background-image: url("../../sass/layout/Background_Header.jpg");
-  background-color: #000000;
-  background-size: cover; }
-  .header__content a,
-  .header__content a:hover,
-  .header__content a:focus,
-  .header__content a:active {
-    text-decoration: none;
-    color: inherit; }
-  .header__content i {
-    margin: 0.7rem;
-    border-radius: 40%; }
-  .header__content .header__titlename {
-    text-align: center;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 4.5rem;
-    color: #ffffff; }
-  .header__content .header__know {
-    font-family: Montserrat;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    align-self: center;
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0);
-    padding: 2rem 4rem 2rem 4rem;
-    border-width: 0.3rem;
-    border-color: #ffffff;
-    border-style: solid;
-    border-spacing: 0.3rem;
-    margin: 3rem; }
-    .header__content .header__know:hover {
-      background-color: rgba(0, 0, 0, 0.3); }
-  .header__content .header__socialmedia {
-    text-align: center;
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 2rem;
-    border-width: 0.3rem; }
-    .header__content .header__socialmedia a {
-      border-radius: 40%; }
-    .header__content .header__socialmedia a:hover {
-      transition: 0.3s;
-      color: black;
-      background-color: #ffffff;
-      border-color: #ffffff; }
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap");
 * {
   margin: 0%;
   padding: 0%; }
+
+body {
+  font-family: Montserrat, sans-serif; }
+
+.header {
+  min-height: 100vh;
+  background: url("../assets/img/bg.png"), black;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .header__logo {
+    display: block;
+    height: 15rem;
+    margin: 0 auto;
+    padding: 1rem 0; }
+  .header__title {
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 600; }
+    @media (max-width: 600px) {
+      .header__title {
+        font-size: 2.25rem; } }
+  .header__subtitle {
+    color: #b1b5b7;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem; }
+  .header__button {
+    text-align: center;
+    margin: 2rem;
+    margin-bottom: 4rem; }
+    .header__button a {
+      color: white;
+      padding: 0.5rem 1rem;
+      border: 3px solid white;
+      font-size: 1.25rem;
+      text-transform: uppercase;
+      text-decoration: none; }
+  .header__socials {
+    text-align: center;
+    margin-top: 2rem; }
+    .header__socials__icon {
+      color: white;
+      font-size: 1.75rem;
+      margin: 0 0.5rem; }
