@@ -3,7 +3,6 @@
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  width: 100vw;
   background-image: url("../../sass/layout/Background_Header.jpg");
   background-color: #000000;
   background-size: cover; }
@@ -14,18 +13,13 @@
     text-decoration: none;
     color: inherit; }
   .header__content i {
-    font-size: 2rem;
-    margin: 0.7rem;
-    margin-top: 1.5rem;
-    height: 1.5rem;
-    width: 1.2rem; }
+    margin: 0.7rem; }
   .header__content .header__titlename {
     text-align: center;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 4.5rem;
-    line-height: 4.75rem;
     color: #ffffff; }
   .header__content .header__know {
     font-family: Montserrat;
@@ -36,8 +30,7 @@
     align-self: center;
     color: #ffffff;
     background: rgba(0, 0, 0, 0);
-    height: 5rem;
-    width: 15rem;
+    padding: 2rem 4rem 2rem 4rem;
     border-width: 0.3rem;
     border-color: #ffffff;
     border-style: solid;
@@ -55,7 +48,7 @@
       transition: 0.3s;
       color: black;
       background-color: #ffffff;
-      border-radius: 30%;
+      border-radius: 40%;
       border-color: #ffffff; }
 
 * {
