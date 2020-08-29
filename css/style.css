@@ -13,7 +13,8 @@
     text-decoration: none;
     color: inherit; }
   .header__content i {
-    margin: 0.7rem; }
+    margin: 0.7rem;
+    border-radius: 40%; }
   .header__content .header__titlename {
     text-align: center;
     font-family: Montserrat;
@@ -44,11 +45,12 @@
     font-family: Montserrat;
     font-size: 2rem;
     border-width: 0.3rem; }
+    .header__content .header__socialmedia a {
+      border-radius: 40%; }
     .header__content .header__socialmedia a:hover {
       transition: 0.3s;
       color: black;
       background-color: #ffffff;
-      border-radius: 40%;
       border-color: #ffffff; }
 
 * {

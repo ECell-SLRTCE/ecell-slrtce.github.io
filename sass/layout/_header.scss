@@ -17,6 +17,7 @@
   background-size: cover;
   & i {
     margin: 0.7rem;
+    border-radius: 40%;
   }
   & .header__titlename {
     text-align: center;
@@ -35,7 +36,7 @@
     align-self: center;
     color: $textcolor;
     background: rgba(0, 0, 0, 0);
-    padding:2rem 4rem 2rem 4rem; 
+    padding: 2rem 4rem 2rem 4rem;
     border-width: 0.3rem;
     border-color: $textcolor;
     border-style: solid;
@@ -51,11 +52,13 @@
     font-family: $fontstyle;
     font-size: 2rem;
     border-width: 0.3rem;
+    & a {
+      border-radius: 40%;
+    }
     a:hover {
       transition: 0.3s;
       color: black;
       background-color: $textcolor;
-      border-radius: 40%;
       border-color: $textcolor;
     }
   }
