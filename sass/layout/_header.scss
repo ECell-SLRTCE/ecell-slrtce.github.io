@@ -1,65 +1,65 @@
-// Header styling goes here
-@import "../abstracts/variables";
-.header__content {
-  a,
-  a:hover,
-  a:focus,
-  a:active {
-    text-decoration: none;
-    color: inherit;
-  }
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  background-image: url("../../sass/layout/Background_Header.jpg");
-  background-color: #000000;
+.header {
+  min-height: 100vh;
+  background: url("../assets/img/bg.png"), black;
   background-size: cover;
-  & i {
-    margin: 0.7rem;
-    border-radius: 40%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__logo {
+    display: block;
+    height: 15rem;
+    margin: 0 auto;
+    padding: 1rem 0;
   }
-  & .header__titlename {
+
+  &__title {
     text-align: center;
-    font-family: $fontstyle;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 4.5rem;
-    color: $textcolor;
-  }
-  & .header__know {
-    font-family: $fontstyle;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    align-self: center;
-    color: $textcolor;
-    background: rgba(0, 0, 0, 0);
-    padding: 2rem 4rem 2rem 4rem;
-    border-width: 0.3rem;
-    border-color: $textcolor;
-    border-style: solid;
-    border-spacing: 0.3rem;
-    margin: 3rem;
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 600;
+
+    @include responsive(phone) {
+      font-size: 2rem;
     }
   }
-  & .header__socialmedia {
+
+  &__subtitle {
+    color: #b1b5b7;
     text-align: center;
-    color: $textcolor;
-    font-family: $fontstyle;
-    font-size: 2rem;
-    border-width: 0.3rem;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+
+    @include responsive(phone) {
+      font-size: 1.3rem;
+    }
+  }
+
+  &__button {
+    text-align: center;
+    margin: 2rem;
+    margin-bottom: 4rem;
+
     & a {
-      border-radius: 40%;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: 3px solid white;
+      font-size: 1.25rem;
+      text-transform: uppercase;
+      text-decoration: none;
     }
-    a:hover {
-      transition: 0.3s;
-      color: black;
-      background-color: $textcolor;
-      border-color: $textcolor;
+  }
+
+  &__socials {
+    text-align: center;
+    margin-top: 2rem;
+
+    &__icon {
+      color: white;
+      font-size: 1.75rem;
+      margin: 0 0.5rem;
     }
   }
 }

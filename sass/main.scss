@@ -1,3 +1,7 @@
-@import "layout/header";
-@import "base/base";
+@import "abstracts/mixins";
 @import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+
+@import "layout/header";
