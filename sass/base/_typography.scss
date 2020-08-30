@@ -13,12 +13,18 @@ body {
     font-family: "Raleway", sans-serif;
     color: $heading;
     margin-bottom: 0.25rem;
+    @include responsive(phone) {
+      font-size: 2rem;
+    }
   }
   &-tagline {
     font-size: 1.25rem;
     color: $heading-sub;
     font-weight: 800;
     margin-bottom: 1.25rem;
+    @include responsive(phone) {
+      font-size: 0.8rem;
+    }
   }
   &-hr {
     width: 6.75rem;
