@@ -17,12 +17,18 @@
   font-family: "Raleway", sans-serif;
   color: #ee6f57;
   margin-bottom: 0.25rem; }
+  @media (max-width: 37.5em) {
+    .section-title {
+      font-size: 2rem; } }
 
 .section-tagline {
   font-size: 1.25rem;
   color: #52575d;
   font-weight: 800;
   margin-bottom: 1.25rem; }
+  @media (max-width: 37.5em) {
+    .section-tagline {
+      font-size: 0.8rem; } }
 
 .section-hr {
   width: 6.75rem;
