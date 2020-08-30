@@ -1,11 +1,13 @@
 .about {
   background-color: $background-dark;
   .card-deck {
-    width: 80%;
+    width: 100%;
     padding-bottom: 3.25rem;
-    @include responsive(tablet-portrait) {
-      width: 95%;
+
+    @include responsive(phone) {
+      width: 85%;
     }
+
     .card {
       padding: 1rem 0rem 1rem 0rem;
       background: inherit;
