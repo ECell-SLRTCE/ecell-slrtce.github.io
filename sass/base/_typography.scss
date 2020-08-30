@@ -1,6 +1,10 @@
 // Styling related to fonts go here
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
 .section {
+  
   &-header {
     text-align: center;
     padding: 3.25rem;
