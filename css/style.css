@@ -61,8 +61,8 @@
   .header__subtitle {
     color: #b1b5b7;
     text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 3rem; }
+    font-size: 1.62rem;
+    margin-bottom: 2rem; }
     @media (max-width: 37.5em) {
       .header__subtitle {
         font-size: 1.3rem; } }
