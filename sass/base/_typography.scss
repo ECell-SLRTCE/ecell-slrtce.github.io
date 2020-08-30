@@ -4,14 +4,13 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .section {
-  
   &-header {
     text-align: center;
     padding: 3.25rem;
     font-family: "Montserrat", sans-serif;
   }
   &-title {
-    font-size: 3.75rem;
+    font-size: 2.75rem;
     font-family: "Raleway", sans-serif;
     color: $heading;
     margin-bottom: 0.25rem;
@@ -20,7 +19,7 @@ body {
     }
   }
   &-tagline {
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: $heading-sub;
     font-weight: 800;
     margin-bottom: 1.25rem;
