@@ -41,6 +41,7 @@
     text-align: center;
     margin: 2rem;
     margin-bottom: 4rem;
+    transition: 0.3s;
 
     & a {
       color: white;
@@ -49,10 +50,17 @@
       font-size: 1.25rem;
       text-transform: uppercase;
       text-decoration: none;
-     
+      transition: 0.3s;
+
+      &:hover {
+        background: white;
+        color: black;
+      }
     }
-    
-    
+
+    &:hover {
+      transform: translateY(-5px);
+    }
   }
 
   &__socials {
@@ -64,7 +72,7 @@
       font-size: 1.75rem;
       margin: 0 0.5rem;
 
-      &:hover{
+      &:hover {
         color: #6e6960;
       }
     }
