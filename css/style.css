@@ -42,11 +42,11 @@ body {
 .about {
   background-color: #111111; }
   .about .card-deck {
-    width: 80%;
+    width: 100%;
     padding-bottom: 3.25rem; }
-    @media (max-width: 56.25em) {
+    @media (max-width: 37.5em) {
       .about .card-deck {
-        width: 95%; } }
+        width: 85%; } }
     .about .card-deck .card {
       padding: 1rem 0rem 1rem 0rem;
       background: inherit;
@@ -147,7 +147,7 @@ body {
       color: #ee6f57; }
 
 .team {
-  background-color: #111111;
+  background-color: #0c0c0c;
   background-size: cover; }
   .team .team__container .team__box {
     width: 11.8rem;
