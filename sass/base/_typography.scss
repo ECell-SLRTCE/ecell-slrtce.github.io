@@ -1,5 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap");
-
-body {
-  font-family: Montserrat, sans-serif;
+// Styling related to fonts go here
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway&display=swap");
+.section {
+  &-header {
+    text-align: center;
+    padding: 3.25rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  &-title {
+    font-size: 3.75rem;
+    font-family: "Raleway", sans-serif;
+    color: $heading;
+    margin-bottom: 0.25rem;
+    @include responsive(phone) {
+      font-size: 2rem;
+    }
+  }
+  &-tagline {
+    font-size: 1.25rem;
+    color: $heading-sub;
+    font-weight: 800;
+    margin-bottom: 1.25rem;
+    @include responsive(phone) {
+      font-size: 1rem;
+    }
+  }
+  &-hr {
+    width: 6.75rem;
+    height: 0.3125rem;
+    background: $accent-color;
+    margin: 0 auto;
+  }
 }

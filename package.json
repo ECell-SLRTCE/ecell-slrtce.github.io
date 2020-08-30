@@ -4,7 +4,7 @@
   "description": "Website for Entrepreneurship Cell of SLRTCE",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+    "watch:sass": "node-sass -w -r sass/main.scss css/style.css"
   },
   "author": "Nitin Ranganath",
   "license": "ISC",
