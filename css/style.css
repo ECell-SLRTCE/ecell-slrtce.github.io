@@ -28,7 +28,7 @@
   margin-bottom: 1.25rem; }
   @media (max-width: 37.5em) {
     .section-tagline {
-      font-size: 0.8rem; } }
+      font-size: 1rem; } }
 
 .section-hr {
   width: 6.75rem;
@@ -80,7 +80,7 @@
   .header__socials {
     text-align: center;
     margin-top: 2rem; }
-    .header__socials__icon {
+    .header__socials__icon i {
       color: white;
       font-size: 1.75rem;
       margin: 0 0.5rem; }
