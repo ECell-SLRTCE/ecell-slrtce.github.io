@@ -39,6 +39,39 @@ body {
   background: #ee6f57;
   margin: 0 auto; }
 
+.about {
+  background-color: #111111; }
+  .about .card-deck {
+    width: 80%;
+    padding-bottom: 3.25rem; }
+    @media (max-width: 56.25em) {
+      .about .card-deck {
+        width: 95%; } }
+    .about .card-deck .card {
+      padding: 1rem 0rem 1rem 0rem;
+      background: inherit;
+      text-align: center;
+      transition: 0.2s ease-out; }
+      .about .card-deck .card .card-title {
+        color: #52575d;
+        font-size: 1.25rem;
+        font-weight: 800;
+        word-wrap: normal; }
+      .about .card-deck .card .card-body {
+        color: #cec6c6;
+        font-size: 1.2rem; }
+      .about .card-deck .card .card-img-top i {
+        padding: 1rem 0rem 1rem 0rem;
+        font-size: 6rem;
+        color: #ee6f57; }
+      .about .card-deck .card:hover {
+        background-color: #1d1d1d;
+        box-shadow: 20px 20px 50px #000; }
+      @media (hover: hover) and (pointer: fine) {
+        .about .card-deck .card:hover {
+          background-color: #1d1d1d;
+          box-shadow: 20px 20px 50px #000; } }
+
 .header {
   min-height: 100vh;
   background: url("../assets/img/bg.png"), black;
@@ -97,35 +130,18 @@ body {
       .header__socials__icon i:hover {
         color: #6e6960; }
 
-.about {
-  background-color: #111111; }
-  .about .card-deck {
-    width: 80%;
-    padding-bottom: 3.25rem; }
-    @media (max-width: 56.25em) {
-      .about .card-deck {
-        width: 95%; } }
-    .about .card-deck .card {
-      padding: 1rem 0rem 1rem 0rem;
-      background: inherit;
-      text-align: center;
-      transition: 0.2s ease-out; }
-      .about .card-deck .card .card-title {
-        color: #52575d;
-        font-size: 1.25rem;
-        font-weight: 800;
-        word-wrap: normal; }
-      .about .card-deck .card .card-body {
-        color: #cec6c6;
-        font-size: 1.2rem; }
-      .about .card-deck .card .card-img-top i {
-        padding: 1rem 0rem 1rem 0rem;
-        font-size: 6rem;
-        color: #ee6f57; }
-      .about .card-deck .card:hover {
-        background-color: #1d1d1d;
-        box-shadow: 20px 20px 50px #000; }
-      @media (hover: hover) and (pointer: fine) {
-        .about .card-deck .card:hover {
-          background-color: #1d1d1d;
-          box-shadow: 20px 20px 50px #000; } }
+.footer {
+  padding: 3rem 5rem 1rem 5rem;
+  background: #161616;
+  overflow: hidden;
+  text-align: center;
+  color: grey; }
+  .footer > * {
+    margin-bottom: 1.5rem; }
+  .footer__social__icon i {
+    color: grey;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    transition: 0.3s; }
+    .footer__social__icon i:hover {
+      color: #ee6f57; }

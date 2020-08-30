@@ -1,1 +1,22 @@
-// Footer styling goes here
+.footer {
+  padding: 3rem 5rem 1rem 5rem;
+  background: #161616;
+  overflow: hidden;
+  text-align: center;
+  color: grey;
+
+  & > * {
+    margin-bottom: 1.5rem;
+  }
+
+  &__social__icon i {
+    color: grey;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    transition: 0.3s;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
