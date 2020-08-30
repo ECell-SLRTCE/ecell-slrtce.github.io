@@ -7,6 +7,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+body {
+  font-family: "Montserrat", sans-serif; }
+
 .section-header {
   text-align: center;
   padding: 3.25rem;
@@ -84,6 +87,8 @@
       color: white;
       font-size: 1.75rem;
       margin: 0 0.5rem; }
+      .header__socials__icon i:hover {
+        color: #6e6960; }
 
 .about {
   background-color: #111111; }
