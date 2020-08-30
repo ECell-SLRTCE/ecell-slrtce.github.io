@@ -99,3 +99,33 @@ body {
 
 .about {
   background-color: #111111; }
+  .about .card-deck {
+    width: 80%;
+    padding-bottom: 3.25rem; }
+    @media (max-width: 56.25em) {
+      .about .card-deck {
+        width: 95%; } }
+    .about .card-deck .card {
+      padding: 1rem 0rem 1rem 0rem;
+      background: inherit;
+      text-align: center;
+      transition: 0.2s ease-out; }
+      .about .card-deck .card .card-title {
+        color: #52575d;
+        font-size: 1.25rem;
+        font-weight: 800;
+        word-wrap: normal; }
+      .about .card-deck .card .card-body {
+        color: #cec6c6;
+        font-size: 1.2rem; }
+      .about .card-deck .card .card-img-top i {
+        padding: 1rem 0rem 1rem 0rem;
+        font-size: 6rem;
+        color: #ee6f57; }
+      .about .card-deck .card:hover {
+        background-color: #1d1d1d;
+        box-shadow: 20px 20px 50px #000; }
+      @media (hover: hover) and (pointer: fine) {
+        .about .card-deck .card:hover {
+          background-color: #1d1d1d;
+          box-shadow: 20px 20px 50px #000; } }

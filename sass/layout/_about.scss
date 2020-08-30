@@ -1,3 +1,42 @@
 .about {
   background-color: $background-dark;
+  .card-deck {
+    width: 80%;
+    padding-bottom: 3.25rem;
+    @include responsive(tablet-portrait) {
+      width: 95%;
+    }
+    .card {
+      padding: 1rem 0rem 1rem 0rem;
+      background: inherit;
+      text-align: center;
+      transition: 0.2s ease-out;
+      .card-title {
+        color: $heading-sub;
+        font-size: 1.25rem;
+        font-weight: 800;
+        word-wrap: normal;
+      }
+      .card-body {
+        color: $text-grey;
+        font-size: 1.2rem;
+      }
+      .card-img-top i {
+        padding: 1rem 0rem 1rem 0rem;
+        font-size: 6rem;
+        color: $accent-color;
+      }
+
+      &:hover {
+        background-color: $background-dark-hover;
+        box-shadow: 20px 20px 50px #000;
+      }
+      @media (hover: hover) and (pointer: fine) {
+        &:hover {
+          background-color: $background-dark-hover;
+          box-shadow: 20px 20px 50px #000;
+        }
+      }
+    }
+  }
 }
