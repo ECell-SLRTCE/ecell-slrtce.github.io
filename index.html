@@ -20,6 +20,32 @@
     <title>E-Cell SLRTCE</title>
   </head>
   <body>
+    <!-- Navigation -->
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
+      <label for="nav-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background"></div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link"
+              ><span>01</span>About Us</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>02</span>Events</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#team" class="navigation__link"><span>03</span>Our Team</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>04</span>Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <!-- Header -->
     <header class="header">
       <div class="header__content">
@@ -48,7 +74,7 @@
     </header>
 
     <!-- About us -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="section-header">
         <h1 class="section-title">ABOUT US</h1>
         <h2 class="section-tagline">OUR MISSION & VISION</h2>
@@ -100,7 +126,7 @@
     <section class="events"></section>
 
     <!-- Team -->
-    <section class="team">
+    <section class="team" id="team">
       <div class="section-header">
         <h1 class="section-title">OUR TEAM</h1>
         <h2 class="section-tagline">ROLES AND CONTACTS</h2>
@@ -167,5 +193,7 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <!-- Custom scripts -->
+    <script src="js/navigation.js"></script>
   </body>
 </html>
