@@ -7,6 +7,8 @@
   // 16px == 1rem
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  box-sizing: border-box;
 }
 
 html {
