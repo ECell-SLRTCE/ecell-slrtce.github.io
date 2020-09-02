@@ -1,5 +1,5 @@
 //Getting the cprevious position
-const prevScrollpos = window.pageYOffset;
+let prevScrollpos = window.pageYOffset;
 
 //scrolling function for social button
 window.onscroll = ()=>{
