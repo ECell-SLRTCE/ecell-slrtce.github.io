@@ -1,15 +1,14 @@
-//Getting the cprevious position
-let prevScrollpos = window.pageYOffset;
+//Getting the intiail Y offset
+const initialYOffset = window.pageYOffset;
 
 //scrolling function for social button
-window.onscroll = ()=>{
-    //Getting current position
-    let currentPos = window.pageYOffset;
+window.onscroll = () => {
+  //Getting current position
+  let currentPos = window.pageYOffset;
 
-    if (currentPos == prevScrollpos){
-      document.getElementById("social__scroll").style.display = "none";
-    } else {
-      document.getElementById("social__scroll").style.display = "flex";
-    }
-    prevScrollpos = currentPos;
+  if (currentPos == initialYOffset) {
+    document.getElementById("social__scroll").style.display = "none";
+  } else {
+    document.getElementById("social__scroll").style.display = "flex";
   }
+};
