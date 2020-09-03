@@ -1,11 +1,51 @@
+@keyframes fade-up {
+  to {
+    bottom: auto;
+  }
+}
 .team {
   background-color: $background-dark-secondary;
   .card {
     max-width: 11.8rem;
+    height: 11.8rem;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 2.19rem 4.37rem;
+    border-color: $background-dark-secondary;
     &-img-overlay {
+      background-color: rgba(0, 0, 0, 0.75);
       width: 100%;
-      height: 15vw;
+      opacity: 0;
       object-fit: cover;
+      position: absolute;
+      transition: 0.3s;
+      & > .card-text {
+        position: absolute;
+        bottom: -1rem;
+        transition: 0.3s;
+      }
+      &:hover {
+        opacity: 1;
+        & > .card-text {
+          transform: translateY(-3rem);
+        }
+      }
+    }
+    &-deck {
+      padding: 1rem 0rem 1rem 0rem;
+      width: 90%;
+      margin: 0 auto;
+      @include responsive(phone) {
+        width: 100%;
+      }
+    }
+    &-img {
+      border-radius: 2.19rem 4.37rem;
+      overflow: hidden;
+      width: 31.25rem;
+      height: auto;
+      display: block;
+      resize: inherit;
     }
   }
 }

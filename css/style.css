@@ -285,14 +285,48 @@ body {
   top: 0;
   transform: rotate(-135deg); }
 
+@keyframes fade-up {
+  to {
+    bottom: auto; } }
+
 .team {
   background-color: #0c0c0c; }
   .team .card {
-    max-width: 11.8rem; }
+    max-width: 11.8rem;
+    height: 11.8rem;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 2.19rem 4.37rem;
+    border-color: #0c0c0c; }
     .team .card-img-overlay {
+      background-color: rgba(0, 0, 0, 0.75);
       width: 100%;
-      height: 15vw;
-      object-fit: cover; }
+      opacity: 0;
+      object-fit: cover;
+      position: absolute;
+      transition: 0.3s; }
+      .team .card-img-overlay > .card-text {
+        position: absolute;
+        bottom: -1rem;
+        transition: 0.3s; }
+      .team .card-img-overlay:hover {
+        opacity: 1; }
+        .team .card-img-overlay:hover > .card-text {
+          transform: translateY(-3rem); }
+    .team .card-deck {
+      padding: 1rem 0rem 1rem 0rem;
+      width: 90%;
+      margin: 0 auto; }
+      @media (max-width: 37.5em) {
+        .team .card-deck {
+          width: 100%; } }
+    .team .card-img {
+      border-radius: 2.19rem 4.37rem;
+      overflow: hidden;
+      width: 31.25rem;
+      height: auto;
+      display: block;
+      resize: inherit; }
 
 .social__component {
   display: none;
