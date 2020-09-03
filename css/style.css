@@ -304,13 +304,13 @@ body {
       object-fit: cover;
       position: absolute;
       transition: 0.3s; }
-      .team .card-img-overlay > .card-text {
+      .team .card-img-overlay div.card-text {
         position: absolute;
         bottom: -1rem;
         transition: 0.3s; }
       .team .card-img-overlay:hover {
         opacity: 1; }
-        .team .card-img-overlay:hover > .card-text {
+        .team .card-img-overlay:hover div.card-text {
           transform: translateY(-3rem); }
     .team .card-deck {
       padding-bottom: 3.25rem;
