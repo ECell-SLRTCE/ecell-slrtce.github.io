@@ -286,17 +286,26 @@ body {
   transform: rotate(-135deg); }
 
 .team {
-  background-color: #0c0c0c; }
+  background-color: #0c0c0c;
+  padding-bottom: 3rem; }
   .team .card {
-    max-width: 11.8rem;
-    height: 11.8rem;
+    max-width: 15rem;
+    height: 15rem;
     overflow: hidden;
     border-radius: 2.19rem 4.37rem;
-    border-color: #0c0c0c; }
+    border-color: #0c0c0c;
+    margin-bottom: 2.5rem; }
+    @media (max-width: 56.25em) {
+      .team .card {
+        max-width: 10rem;
+        height: 10rem;
+        margin-bottom: 2.5rem; } }
     @media (max-width: 37.5em) {
       .team .card {
+        max-width: 15rem;
+        height: 15rem;
         margin: 0 auto;
-        margin-bottom: 1rem; } }
+        margin-bottom: 2.5rem; } }
     .team .card-img-overlay {
       background-color: rgba(0, 0, 0, 0.75);
       width: 100%;
@@ -306,26 +315,26 @@ body {
       transition: 0.3s; }
       .team .card-img-overlay div.card-text {
         position: absolute;
+        width: 100%;
         bottom: -1rem;
         transition: 0.3s; }
       .team .card-img-overlay:hover {
         opacity: 1; }
         .team .card-img-overlay:hover div.card-text {
-          transform: translateY(-3rem); }
+          transform: translateY(-4rem); }
+          @media (max-width: 56.25em) {
+            .team .card-img-overlay:hover div.card-text {
+              transform: translateY(-1rem); } }
+          @media (max-width: 37.5em) {
+            .team .card-img-overlay:hover div.card-text {
+              transform: translateY(-4rem); } }
     .team .card-deck {
-      padding-bottom: 3.25rem;
-      width: 90%;
+      margin-bottom: 2.5rem;
+      width: 100%;
       margin: 0 auto; }
-      @media (max-width: 37.5em) {
-        .team .card-deck {
-          width: 100%; } }
     .team .card-img {
       border-radius: 2.19rem 4.37rem;
-      overflow: hidden;
-      width: 31.25rem;
-      height: auto;
-      display: block;
-      resize: inherit; }
+      width: 100%; }
 
 .social__component {
   display: none;

@@ -1,15 +1,27 @@
 .team {
   background-color: $background-dark-secondary;
+  padding-bottom: 3rem;
   .card {
-    max-width: 11.8rem;
-    height: 11.8rem;
+    max-width: 15rem;
+    height: 15rem;
     overflow: hidden;
     border-radius: 2.19rem 4.37rem;
     border-color: $background-dark-secondary;
-    @include responsive(phone) {
-      margin: 0 auto;
-      margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
+
+    @include responsive(tablet-portrait) {
+      max-width: 10rem;
+      height: 10rem;
+      margin-bottom: 2.5rem;
     }
+
+    @include responsive(phone) {
+      max-width: 15rem;
+      height: 15rem;
+      margin: 0 auto;
+      margin-bottom: 2.5rem;
+    }
+
     &-img-overlay {
       background-color: rgba(0, 0, 0, 0.75);
       width: 100%;
@@ -17,33 +29,37 @@
       object-fit: cover;
       position: absolute;
       transition: 0.3s;
+
       & div.card-text {
         position: absolute;
+        width: 100%;
         bottom: -1rem;
         transition: 0.3s;
       }
+
       &:hover {
         opacity: 1;
         & div.card-text {
-          transform: translateY(-3rem);
+          transform: translateY(-4rem);
+
+          @include responsive(tablet-portrait) {
+            transform: translateY(-1rem);
+          }
+
+          @include responsive(phone) {
+            transform: translateY(-4rem);
+          }
         }
       }
     }
     &-deck {
-      padding-bottom: 3.25rem;
-      width: 90%;
+      margin-bottom: 2.5rem;
+      width: 100%;
       margin: 0 auto;
-      @include responsive(phone) {
-        width: 100%;
-      }
     }
     &-img {
       border-radius: 2.19rem 4.37rem;
-      overflow: hidden;
-      width: 31.25rem;
-      height: auto;
-      display: block;
-      resize: inherit;
+      width: 100%;
     }
   }
 }
