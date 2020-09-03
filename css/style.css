@@ -286,38 +286,46 @@ body {
   transform: rotate(-135deg); }
 
 .team {
-  background-color: #0c0c0c;
-  background-size: cover; }
-  .team .team__container .team__box {
-    width: 11.8rem;
+  background-color: #0c0c0c; }
+  .team .card {
+    max-width: 11.8rem;
     height: 11.8rem;
-    display: inline-block;
-    border-radius: 2.19rem 4.37rem; }
-    .team .team__container .team__box .team__images {
-      overflow: hidden;
+    overflow: hidden;
+    border-radius: 2.19rem 4.37rem;
+    border-color: #0c0c0c; }
+    @media (max-width: 37.5em) {
+      .team .card {
+        margin: 0 auto;
+        margin-bottom: 1rem; } }
+    .team .card-img-overlay {
+      background-color: rgba(0, 0, 0, 0.75);
+      width: 100%;
+      opacity: 0;
+      object-fit: cover;
+      position: absolute;
+      transition: 0.3s; }
+      .team .card-img-overlay div.card-text {
+        position: absolute;
+        bottom: -1rem;
+        transition: 0.3s; }
+      .team .card-img-overlay:hover {
+        opacity: 1; }
+        .team .card-img-overlay:hover div.card-text {
+          transform: translateY(-3rem); }
+    .team .card-deck {
+      padding-bottom: 3.25rem;
+      width: 90%;
+      margin: 0 auto; }
+      @media (max-width: 37.5em) {
+        .team .card-deck {
+          width: 100%; } }
+    .team .card-img {
       border-radius: 2.19rem 4.37rem;
-      height: 100%;
-      max-width: 100%;
+      overflow: hidden;
+      width: 31.25rem;
+      height: auto;
+      display: block;
       resize: inherit; }
-      .team .team__container .team__box .team__images:hover {
-        opacity: 0.2;
-        transition: transform 0.4s; }
-  .team .team__container .team__box:hover .team__images img {
-    opacity: 0.1; }
-  .team .team__container .team__box .team__details {
-    transform: scaleY(0);
-    transition: transform 0.4s; }
-  .team .team__container .team__box:hover .team__details {
-    transform: scaleY(1);
-    border-radius: 2.19rem 4.37rem; }
-  .team .team__container .team__box .team__details .team__content {
-    transform: translateY(-170%);
-    padding: 0.94rem;
-    color: #ffffff; }
-    .team .team__container .team__box .team__details .team__content p {
-      margin: 0.62rem 0 0;
-      padding: 0;
-      text-align: center; }
 
 .social__component {
   display: none;

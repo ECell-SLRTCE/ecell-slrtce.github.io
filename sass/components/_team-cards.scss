@@ -1,0 +1,49 @@
+.team {
+  background-color: $background-dark-secondary;
+  .card {
+    max-width: 11.8rem;
+    height: 11.8rem;
+    overflow: hidden;
+    border-radius: 2.19rem 4.37rem;
+    border-color: $background-dark-secondary;
+    @include responsive(phone) {
+      margin: 0 auto;
+      margin-bottom: 1rem;
+    }
+    &-img-overlay {
+      background-color: rgba(0, 0, 0, 0.75);
+      width: 100%;
+      opacity: 0;
+      object-fit: cover;
+      position: absolute;
+      transition: 0.3s;
+      & div.card-text {
+        position: absolute;
+        bottom: -1rem;
+        transition: 0.3s;
+      }
+      &:hover {
+        opacity: 1;
+        & div.card-text {
+          transform: translateY(-3rem);
+        }
+      }
+    }
+    &-deck {
+      padding-bottom: 3.25rem;
+      width: 90%;
+      margin: 0 auto;
+      @include responsive(phone) {
+        width: 100%;
+      }
+    }
+    &-img {
+      border-radius: 2.19rem 4.37rem;
+      overflow: hidden;
+      width: 31.25rem;
+      height: auto;
+      display: block;
+      resize: inherit;
+    }
+  }
+}
