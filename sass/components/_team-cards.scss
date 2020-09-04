@@ -1,25 +1,26 @@
 .team {
   background-color: $background-dark-secondary;
   padding-bottom: 3rem;
+  
   .card {
     max-width: 15rem;
     height: 15rem;
     overflow: hidden;
     border-radius: 2.19rem 4.37rem;
     border-color: $background-dark-secondary;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
 
     @include responsive(tablet-portrait) {
       max-width: 10rem;
       height: 10rem;
-      margin-bottom: 2.5rem;
+      margin-bottom: 1rem;
     }
 
     @include responsive(phone) {
       max-width: 15rem;
       height: 15rem;
       margin: 0 auto;
-      margin-bottom: 2.5rem;
+      margin-bottom: 1rem;
     }
 
     &-img-overlay {
@@ -61,5 +62,11 @@
       border-radius: 2.19rem 4.37rem;
       width: 100%;
     }
+  }
+
+  &-member {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.75rem;
   }
 }

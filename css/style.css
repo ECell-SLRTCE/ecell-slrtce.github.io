@@ -292,18 +292,18 @@ body {
     overflow: hidden;
     border-radius: 2.19rem 4.37rem;
     border-color: #0c0c0c;
-    margin-bottom: 2.5rem; }
+    margin-bottom: 1rem; }
     @media (max-width: 56.25em) {
       .team .card {
         max-width: 10rem;
         height: 10rem;
-        margin-bottom: 2.5rem; } }
+        margin-bottom: 1rem; } }
     @media (max-width: 37.5em) {
       .team .card {
         max-width: 15rem;
         height: 15rem;
         margin: 0 auto;
-        margin-bottom: 2.5rem; } }
+        margin-bottom: 1rem; } }
     .team .card-img-overlay {
       background-color: rgba(0, 0, 0, 0.75);
       width: 100%;
@@ -333,6 +333,10 @@ body {
     .team .card-img {
       border-radius: 2.19rem 4.37rem;
       width: 100%; }
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.75rem; }
 
 .social__component {
   display: none;
