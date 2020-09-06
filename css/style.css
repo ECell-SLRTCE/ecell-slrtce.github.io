@@ -292,16 +292,16 @@ body {
     overflow: hidden;
     border-radius: 2.19rem 4.37rem;
     border-color: #0c0c0c;
-    margin-bottom: 1rem; }
+    margin: 1rem 2rem; }
     @media (max-width: 56.25em) {
       .team .card {
         max-width: 10rem;
         height: 10rem;
-        margin-bottom: 1rem; } }
+        margin: 1rem 1.5rem; } }
     @media (max-width: 37.5em) {
       .team .card {
-        max-width: 15rem;
-        height: 15rem;
+        max-width: 18rem;
+        height: 18rem;
         margin: 0 auto;
         margin-bottom: 1rem; } }
     .team .card-img-overlay {
@@ -325,7 +325,7 @@ body {
               transform: translateY(-1rem); } }
           @media (max-width: 37.5em) {
             .team .card-img-overlay:hover div.card-text {
-              transform: translateY(-4rem); } }
+              transform: translateY(-5rem); } }
     .team .card-deck {
       margin-bottom: 2.5rem;
       width: 100%;
@@ -337,6 +337,15 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.75rem; }
+  .team .member-info h3 {
+    font-size: 1.5rem; }
+    @media (max-width: 56.25em) {
+      .team .member-info h3 {
+        font-size: 1.3rem; } }
+  .team .member-info h5 {
+    font-size: 1rem;
+    color: #ee6f57;
+    text-transform: uppercase; }
 
 .social__component {
   display: none;
