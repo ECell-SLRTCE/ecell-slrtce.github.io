@@ -304,6 +304,14 @@ body {
         height: 18rem;
         margin: 0 auto;
         margin-bottom: 1rem; } }
+    .team .card-text {
+      margin-top: 1rem; }
+      .team .card-text a {
+        color: white; }
+        .team .card-text a:hover {
+          color: #ee6f57; }
+      .team .card-text i {
+        font-size: 1.5rem; }
     .team .card-img-overlay {
       background-color: rgba(0, 0, 0, 0.75);
       width: 100%;
@@ -314,7 +322,7 @@ body {
       .team .card-img-overlay div.card-text {
         position: absolute;
         width: 100%;
-        bottom: -1rem;
+        bottom: 0;
         transition: 0.3s; }
       .team .card-img-overlay:hover {
         opacity: 1; }
