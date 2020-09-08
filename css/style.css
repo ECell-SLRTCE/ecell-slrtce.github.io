@@ -308,7 +308,8 @@ body {
     .team .card-text {
       margin-top: 1rem; }
       .team .card-text a {
-        color: white; }
+        color: white;
+        transition: color 0.3s; }
         .team .card-text a:hover {
           color: #ee6f57; }
       .team .card-text i {

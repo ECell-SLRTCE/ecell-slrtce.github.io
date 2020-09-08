@@ -28,6 +28,7 @@
 
       a {
         color: white;
+        transition: color 0.3s;
 
         &:hover {
           color: $accent-color;
