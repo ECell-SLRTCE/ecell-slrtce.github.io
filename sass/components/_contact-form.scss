@@ -1,6 +1,7 @@
 .form__container {
   background-color: $background-dark;
   max-width: 100vw;
+  height: 80vh;
   display: flex;
   box-sizing: border-box;
   @include responsive(tablet-portrait) {
@@ -12,6 +13,11 @@
   }
   & img {
     max-width: 50%;
+    vertical-align: center;
+    padding-top: 1rem;
+  }
+  & .container {
+    padding-top: 1rem;
   }
 }
 
