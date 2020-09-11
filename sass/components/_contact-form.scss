@@ -1,0 +1,63 @@
+.form__container {
+  background-color: $background-dark;
+  max-width: 100vw;
+  display: flex;
+  box-sizing: border-box;
+  @include responsive(tablet-portrait) {
+    max-width: 100%;
+  }
+
+  @include responsive(phone) {
+    max-width: 100vw;
+  }
+  & img {
+    max-width: 50%;
+  }
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 80%;
+  padding: 0.5rem;
+  margin-top: 0.65rem;
+  margin-bottom: 1rem;
+  resize: none;
+  box-sizing: border-box;
+  color: white;
+}
+#query {
+  width: 80%;
+  vertical-align: middle;
+}
+label {
+  color: white;
+  width: 5rem;
+}
+input[type="submit"] {
+  background-color: $heading-sub;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  width: 5rem;
+}
+
+input[type="submit"]:hover {
+  color: $background-dark-hover;
+  background-color: white;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 0.312rem;
+  padding: 1rem;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
