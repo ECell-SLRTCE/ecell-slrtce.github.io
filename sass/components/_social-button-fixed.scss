@@ -7,7 +7,7 @@
 .share-btn {
   position: fixed;
   bottom: 1.5rem;
-  right: 3rem;
+  right: 2rem;
   z-index: 1;
   & span {
     height: 3rem;
@@ -53,18 +53,18 @@
 }
 #click:checked ~ .share-btn a:nth-child(2) span {
   bottom: 0rem;
-  right: 4rem;
+  right: 4.7rem;
 }
 #click:checked ~ .share-btn a:nth-child(3) span {
   bottom: 3rem;
-  right: 3rem;
+  right: 3.7rem;
 }
 .share-btn a:nth-child(3) span {
   transition-delay: 0.1s;
 }
 #click:checked ~ .share-btn a:nth-child(4) span {
   bottom: 4rem;
-  right: 0rem;
+  right: 0.9rem;
 }
 .share-btn a:nth-child(4) span {
   transition-delay: 0.2s;

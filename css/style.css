@@ -366,7 +366,7 @@ body {
 .share-btn {
   position: fixed;
   bottom: 1.5rem;
-  right: 3rem;
+  right: 2rem;
   z-index: 1; }
   .share-btn span {
     height: 3rem;
@@ -411,18 +411,18 @@ body {
 
 #click:checked ~ .share-btn a:nth-child(2) span {
   bottom: 0rem;
-  right: 4rem; }
+  right: 4.7rem; }
 
 #click:checked ~ .share-btn a:nth-child(3) span {
   bottom: 3rem;
-  right: 3rem; }
+  right: 3.7rem; }
 
 .share-btn a:nth-child(3) span {
   transition-delay: 0.1s; }
 
 #click:checked ~ .share-btn a:nth-child(4) span {
   bottom: 4rem;
-  right: 0rem; }
+  right: 0.9rem; }
 
 .share-btn a:nth-child(4) span {
   transition-delay: 0.2s; }
@@ -450,7 +450,6 @@ body {
     padding-top: 1rem; }
 
 input[type="text"],
-select,
 textarea {
   width: 80%;
   padding: 0.5rem;
@@ -468,7 +467,7 @@ label {
   color: white;
   width: 5rem; }
 
-input[type="submit"] {
+.form__submit {
   background-color: #52575d;
   color: white;
   padding: 0.2rem 0.5rem;
@@ -477,7 +476,7 @@ input[type="submit"] {
   align-items: center;
   width: 5rem; }
 
-input[type="submit"]:hover {
+.form__submit:hover {
   color: #1d1d1d;
   background-color: white; }
 

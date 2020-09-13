@@ -22,7 +22,6 @@
 }
 
 input[type="text"],
-select,
 textarea {
   width: 80%;
   padding: 0.5rem;
@@ -40,7 +39,8 @@ label {
   color: white;
   width: 5rem;
 }
-input[type="submit"] {
+
+.form__submit {
   background-color: $heading-sub;
   color: white;
   padding: 0.2rem 0.5rem;
@@ -50,7 +50,7 @@ input[type="submit"] {
   width: 5rem;
 }
 
-input[type="submit"]:hover {
+.form__submit:hover {
   color: $background-dark-hover;
   background-color: white;
 }
@@ -61,7 +61,6 @@ input[type="submit"]:hover {
   margin-top: 0.312rem;
   padding: 1rem;
 }
-
 .row:after {
   content: "";
   display: table;
