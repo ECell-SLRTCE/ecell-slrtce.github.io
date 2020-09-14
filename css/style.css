@@ -432,67 +432,56 @@ body {
 
 .form__container {
   background-color: #111111;
-  max-width: 100vw;
-  height: 80vh;
+  max-width: 100%;
   display: flex;
   box-sizing: border-box; }
   @media (max-width: 56.25em) {
     .form__container {
-      max-width: 100%;
-      height: 100vh; } }
+      max-width: 100%; } }
   @media (max-width: 37.5em) {
     .form__container {
-      max-width: 100vw;
-      height: 100vh; } }
+      max-width: 100vw; } }
   .form__container img {
     max-width: 50%;
     vertical-align: center;
     padding-top: 1rem; }
   .form__container .container {
     padding-top: 1rem; }
-
-input[type="text"],
-textarea {
-  width: 80%;
-  padding: 0.5rem;
-  margin-top: 0.65rem;
-  margin-bottom: 1rem;
-  resize: none;
-  box-sizing: border-box;
-  color: white; }
-
-#query {
-  width: 80%;
-  vertical-align: middle; }
-
-label {
-  color: white;
-  width: 5rem; }
-
-.form__submit {
-  background-color: #52575d;
-  color: white;
-  padding: 0.2rem 0.5rem;
-  border: none;
-  cursor: pointer;
-  align-items: center;
-  width: 5rem; }
-
-.form__submit:hover {
-  color: #1d1d1d;
-  background-color: white; }
-
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 0.312rem;
-  padding: 1rem; }
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%; } }
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both; }
+  .form__container input[type="text"],
+  .form__container textarea {
+    width: 80%;
+    padding: 0.5rem;
+    margin-top: 0.65rem;
+    margin-bottom: 1rem;
+    resize: none;
+    box-sizing: border-box;
+    color: white; }
+  .form__container #query {
+    width: 80%;
+    vertical-align: middle; }
+  .form__container label {
+    color: white;
+    width: 5rem; }
+  .form__container .form__submit {
+    background-color: #52575d;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    width: 5rem; }
+  .form__container .form__submit:hover {
+    color: #1d1d1d;
+    background-color: white; }
+  .form__container .column {
+    float: left;
+    width: 50%;
+    margin-top: 0.312rem;
+    padding: 1rem; }
+  @media screen and (max-width: 600px) {
+    .form__container .column {
+      width: 100%; } }
+  .form__container .row:after {
+    content: "";
+    display: table;
+    clear: both; }
