@@ -438,10 +438,12 @@ body {
   box-sizing: border-box; }
   @media (max-width: 56.25em) {
     .form__container {
-      max-width: 100%; } }
+      max-width: 100%;
+      height: 100vh; } }
   @media (max-width: 37.5em) {
     .form__container {
-      max-width: 100vw; } }
+      max-width: 100vw;
+      height: 100vh; } }
   .form__container img {
     max-width: 50%;
     vertical-align: center;
@@ -485,6 +487,10 @@ label {
   width: 50%;
   margin-top: 0.312rem;
   padding: 1rem; }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%; } }
 
 .row:after {
   content: "";
