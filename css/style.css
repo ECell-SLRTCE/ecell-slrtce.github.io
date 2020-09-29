@@ -1,28 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway&display=swap");
-@keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@keyframes fadeOut {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@-webkit-keyframes fadeOut {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
 * {
   margin: 0;
   padding: 0;
