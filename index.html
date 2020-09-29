@@ -41,7 +41,9 @@
             <a href="#team" class="navigation__link"><span>03</span>Our Team</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>04</span>Contact Us</a>
+            <a href="#contact" class="navigation__link"
+              ><span>04</span>Contact Us</a
+            >
           </li>
         </ul>
       </nav>
@@ -566,6 +568,62 @@
       </div>
     </section>
 
+    <!-- Contact Form -->
+    <section class="contact" id="contact">
+      <div class="section-header">
+        <h1 class="section-title">CONTACT US</h1>
+        <h2 class="section-tagline">REACH OUT VIA FORM</h2>
+        <hr class="section-hr" />
+      </div>
+      <div class="container">
+        <form class="contact__form">
+          <div class="form-group contact__form__group">
+            <label class="contact__form__label" for="name">Full Name</label>
+            <input
+              type="text"
+              class="form-control contact__form__input"
+              name="name"
+              aria-describedby="name"
+            />
+          </div>
+          <div class="form-row contact__form__group">
+            <div class="col-md-6 mb-2">
+              <label class="contact__form__label" for="email"
+                >Email Address</label
+              >
+              <input
+                type="email"
+                class="form-control contact__form__input"
+                name="email"
+              />
+            </div>
+            <div class="col-md-6">
+              <label class="contact__form__label" for="phone"
+                >Phone Number</label
+              >
+              <input
+                type="text"
+                class="form-control contact__form__input"
+                name="phone"
+              />
+            </div>
+          </div>
+          <div class="form-group contact__form__group mt-3">
+            <label class="contact__form__label" for="name">Query</label>
+            <textarea
+              name="query"
+              class="form-control contact__form__input"
+              rows="5"
+              placeholder="I would like to enquire about..."
+            ></textarea>
+          </div>
+          <div class="contact__form__button__container">
+            <button class="contact__form__button" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer row mx-auto">
       <div class="footer__about col-md-4">
@@ -584,13 +642,22 @@
         <h2 class="section-tagline text-white">Follow Us</h2>
         <hr class="section-hr" />
         <div class="footer__social__icons mt-3">
-          <a class="footer__social__icon" href="#"
+          <a
+            class="footer__social__icon"
+            href="https://www.facebook.com/ecellslrtce.in/"
+            rel="noopener noreferrer"
             ><i class="fab fa-facebook-f"></i
           ></a>
-          <a class="footer__social__icon" href="#"
+          <a
+            class="footer__social__icon"
+            href="https://www.instagram.com/ecell.slrtce/"
+            rel="noopener noreferrer"
             ><i class="fab fa-instagram"></i
           ></a>
-          <a class="footer__social__icon" href="#"
+          <a
+            class="footer__social__icon"
+            href="https://www.linkedin.com/company/e-cell-slrtce"
+            rel="noopener noreferrer"
             ><i class="fab fa-linkedin-in"></i
           ></a>
         </div>

@@ -26,15 +26,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  user-select: none;
   box-sizing: border-box; }
 
 html {
   scroll-behavior: smooth; }
+
+grammarly-extension {
+  display: none !important; }
 
 body {
   font-family: "Montserrat", sans-serif; }
@@ -389,7 +387,7 @@ body {
 .share-btn {
   position: fixed;
   bottom: 1.5rem;
-  right: 3rem;
+  right: 2rem;
   z-index: 1; }
   .share-btn span {
     height: 3rem;
@@ -452,3 +450,48 @@ body {
 
 #click {
   display: none; }
+
+.contact {
+  background: #111111;
+  padding-bottom: 3rem; }
+  .contact__form {
+    width: 70%;
+    margin: 0 auto; }
+    @media (max-width: 37.5em) {
+      .contact__form {
+        width: 85%; } }
+    .contact__form__label {
+      color: grey;
+      transition: all 0.3s; }
+    .contact__form__input {
+      background: #0c0c0c;
+      border: none;
+      color: grey !important;
+      font-size: 1.3rem;
+      border-radius: 5px; }
+      .contact__form__input:focus {
+        background: #0c0c0c;
+        box-shadow: 0 0 0 0.2rem rgba(238, 111, 87, 0.25); }
+      @media (max-width: 37.5em) {
+        .contact__form__input {
+          font-size: 1rem; } }
+    .contact__form__button__container {
+      margin-top: 2rem;
+      text-align: center; }
+    .contact__form__button {
+      color: #ee6f57;
+      font-size: 1.2rem;
+      padding: 0.2rem 1rem;
+      text-transform: uppercase;
+      border-radius: 10px;
+      background-color: transparent;
+      border-color: #ee6f57;
+      box-shadow: none;
+      outline: none;
+      transition: all 0.3s; }
+      .contact__form__button:hover {
+        background: #ee6f57;
+        color: white; }
+      .contact__form__button:active {
+        transform: scale(1.1);
+        outline: none; }

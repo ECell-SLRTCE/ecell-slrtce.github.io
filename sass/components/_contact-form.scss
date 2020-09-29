@@ -1,0 +1,63 @@
+.contact {
+  background: $background-dark;
+  padding-bottom: 3rem;
+
+  &__form {
+    width: 70%;
+    margin: 0 auto;
+
+    @include responsive(phone) {
+      width: 85%;
+    }
+
+    &__label {
+      color: grey;
+      transition: all 0.3s;
+    }
+
+    &__input {
+      background: #0c0c0c;
+      border: none;
+      color: grey !important;
+      font-size: 1.3rem;
+      border-radius: 5px;
+
+      &:focus {
+        background: #0c0c0c;
+        box-shadow: 0 0 0 0.2rem rgba($color: $accent-color, $alpha: 0.25);
+      }
+
+      @include responsive(phone) {
+        font-size: 1rem;
+      }
+    }
+
+    &__button__container {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    &__button {
+      color: $accent-color;
+      font-size: 1.2rem;
+      padding: 0.2rem 1rem;
+      text-transform: uppercase;
+      border-radius: 10px;
+      background-color: transparent;
+      border-color: $accent-color;
+      box-shadow: none;
+      outline: none;
+      transition: all 0.3s;
+
+      &:hover {
+        background: $accent-color;
+        color: white;
+      }
+
+      &:active {
+        transform: scale(1.1);
+        outline: none;
+      }
+    }
+  }
+}
