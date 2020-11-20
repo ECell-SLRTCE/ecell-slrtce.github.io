@@ -1,18 +1,3 @@
 .events {
   background-color: $background-dark-secondary;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  .card-columns {
-    .card {
-      display: inline-block;
-      overflow: hidden;
-      max-height: 25rem;
-      max-width: 25rem;
-      @include responsive(phone) {
-        width: 100%;
-        display: block;
-        max-width: 20rem;
-      }
-    }
-  }
 }
