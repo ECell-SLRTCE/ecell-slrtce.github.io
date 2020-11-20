@@ -1,15 +1,16 @@
-@import "abstracts/mixins";
-@import "abstracts/variables";
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
 
-@import "base/base";
-@import "base/typography";
+@import 'base/base';
+@import 'base/typography';
 
-@import "layout/about";
-@import "layout/header";
-@import "layout/footer";
-@import "layout/navigation";
+@import 'layout/about';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/navigation';
+@import 'layout/events';
 
-@import "components/team-cards";
-@import "components/social-button-fixed";
+@import 'components/team-cards';
+@import 'components/social-button-fixed';
 
-@import "components/contact-form";
+@import 'components/contact-form';

@@ -1,0 +1,36 @@
+.events {
+  background-color: $background-dark-secondary;
+  padding-bottom: 2rem;
+  .card-columns {
+    .card {
+      place-items: center;
+      position: relative;
+      &-img {
+        border-radius: 0;
+      }
+      &-text-wrapper {
+        opacity: 0;
+        transition: 0.3s;
+        text-align: center;
+        width: 100%;
+        transition: 0.3s;
+      }
+      &-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        transition: 0.3s;
+      }
+      &:hover {
+        .card-title {
+          opacity: 0;
+        }
+        .card-text-wrapper {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
