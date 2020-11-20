@@ -283,7 +283,19 @@ body {
   transform: rotate(-135deg); }
 
 .events {
-  background-color: #0c0c0c; }
+  background-color: #0c0c0c;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+  .events .card-columns .card {
+    display: inline-block;
+    overflow: hidden;
+    max-height: 25rem;
+    max-width: 25rem; }
+    @media (max-width: 37.5em) {
+      .events .card-columns .card {
+        width: 100%;
+        display: block;
+        max-width: 20rem; } }
 
 .team {
   background-color: #111111;
