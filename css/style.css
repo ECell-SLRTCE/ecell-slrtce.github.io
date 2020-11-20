@@ -283,7 +283,30 @@ body {
   transform: rotate(-135deg); }
 
 .events {
-  background-color: #0c0c0c; }
+  background-color: #0c0c0c;
+  padding-bottom: 2rem; }
+  .events .card-columns .card {
+    place-items: center;
+    position: relative; }
+    .events .card-columns .card-img {
+      border-radius: 0; }
+    .events .card-columns .card-text-wrapper {
+      opacity: 0;
+      transition: 0.3s;
+      text-align: center;
+      width: 100%;
+      transition: 0.3s; }
+    .events .card-columns .card-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      transition: 0.3s; }
+    .events .card-columns .card:hover .card-title {
+      opacity: 0; }
+    .events .card-columns .card:hover .card-text-wrapper {
+      opacity: 1; }
 
 .team {
   background-color: #111111;
