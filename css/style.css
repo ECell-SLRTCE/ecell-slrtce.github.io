@@ -467,7 +467,7 @@ body {
       color: grey;
       transition: all 0.3s; }
     .contact__form__input {
-      background: #0c0c0c;
+      background: #111111;
       border: none;
       color: grey !important;
       font-size: 1.3rem;
