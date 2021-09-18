@@ -344,7 +344,8 @@ body {
       opacity: 0;
       object-fit: cover;
       position: absolute;
-      transition: 0.3s; }
+      transition: 0.3s; 
+    }
       .team .card-img-overlay div.card-text {
         position: absolute;
         width: 100%;
@@ -366,7 +367,8 @@ body {
       margin: 0 auto; }
     .team .card-img {
       border-radius: 2.19rem 4.37rem;
-      width: 100%; }
+      width: 17.5rem;
+    height: 17.5rem; }
   .team-member {
     display: flex;
     flex-direction: column;
