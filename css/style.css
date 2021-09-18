@@ -368,7 +368,9 @@ body {
     .team .card-img {
       border-radius: 2.19rem 4.37rem;
       width: 17.5rem;
-    height: 17.5rem; }
+    height: 17.5rem;
+    object-fit: ;
+   }
   .team-member {
     display: flex;
     flex-direction: column;
