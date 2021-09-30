@@ -56,7 +56,7 @@ body {
       text-align: center;
       transition: 0.2s ease-out; }
       .about .card-deck .card .card-title {
-        color: #52575d;
+        color: darkgray;
         font-size: 1.25rem;
         font-weight: 800;
         word-wrap: normal; }
@@ -369,7 +369,7 @@ body {
       border-radius: 2.19rem 4.37rem;
       width: 17.5rem;
     height: 17.5rem;
-    object-fit: ;
+    
    }
   .team-member {
     display: flex;
@@ -382,7 +382,7 @@ body {
         font-size: 1.3rem; } }
   .team .member-info h5 {
     font-size: 1rem;
-    color: #ee6f57;
+    color: #ee6e57;
     text-transform: uppercase; }
 
 .social__component {
