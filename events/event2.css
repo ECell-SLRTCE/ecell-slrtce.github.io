@@ -4,18 +4,17 @@ head, body
   width: 100%;
 }
 
-#desc
+.desc
 {
   margin: auto;
   width: 50%;
   border: 3px solid black;
   padding: 10px;
-  color: #ee6e57;  
+  color: antiquewhite;
   font-size: medium;
 }
 
-#p1
+.p1
 {
-  color: antiquewhite;
   font-size: medium;
 }
