@@ -3,8 +3,11 @@ head, body
   height: 100%;
   width: 100%;
 }
-
-.desc
+.title{
+  color: #ee6e57;
+  text-align: center;
+}
+#desc
 {
   margin: auto;
   width: 50%;
