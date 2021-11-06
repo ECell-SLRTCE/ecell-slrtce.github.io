@@ -33,7 +33,7 @@ body {
 
 .section-tagline {
   font-size: 1rem;
-  color: #52575d;
+  color: darkgray;
   font-weight: 800;
   margin-bottom: 1.25rem; }
   @media (max-width: 37.5em) {
