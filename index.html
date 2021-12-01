@@ -1,338 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <!-- FontAwesome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <!-- Custom  Stylesheet -->
-    <link rel="stylesheet" href="css/style.css" />
-    <title>E-Cell SLRTCE</title>
-  </head>
-  <body>
-    <!-- Navigation -->
-    <div class="navigation">
-      <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
-      <label for="nav-toggle" class="navigation__button">
-        <span class="navigation__icon">&nbsp;</span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- Custom  Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+  <title>E-Cell SLRTCE</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
+    <label for="nav-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+    <div class="navigation__background"></div>
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#about" class="navigation__link"><span>01</span>About Us</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#events" class="navigation__link"><span>02</span>Events</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#team" class="navigation__link"><span>03</span>Our Team</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#contact" class="navigation__link"><span>04</span>Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Social Button -->
+  <section class="social__component" id="social__scroll">
+    <div class="social__button">
+      <input type="checkbox" id="click" />
+      <label for="click" class="share-btn">
+        <span class="fas fa-share-alt"></span>
+        <a href="https://www.linkedin.com/company/e-cell-slrtce" target="_blank" rel="noopener noreferrer"><span
+            class="fab fa-linkedin-in"></span></a>
+        <a href="https://www.instagram.com/ecell.slrtce/" target="_blank" rel="noopener noreferrer"><span
+            class="fab fa-instagram"></span></a>
+        <a href="https://www.facebook.com/ecellslrtce.in/" target="_blank" rel="noopener noreferrer"><span
+            class="fab fa-facebook"></span></a>
       </label>
-      <div class="navigation__background"></div>
-      <nav class="navigation__nav">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#about" class="navigation__link"
-              ><span>01</span>About Us</a
-            >
-          </li>
-          <li class="navigation__item">
-            <a href="#events" class="navigation__link"><span>02</span>Events</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#team" class="navigation__link"><span>03</span>Our Team</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#contact" class="navigation__link"
-              ><span>04</span>Contact Us</a
-            >
-          </li>
-        </ul>
-      </nav>
     </div>
-    <!-- Social Button -->
-    <section class="social__component" id="social__scroll">
-      <div class="social__button">
-        <input type="checkbox" id="click" />
-        <label for="click" class="share-btn">
-          <span class="fas fa-share-alt"></span>
-          <a
-            href="https://www.linkedin.com/company/e-cell-slrtce"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><span class="fab fa-linkedin-in"></span
-          ></a>
-          <a
-            href="https://www.instagram.com/ecell.slrtce/"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><span class="fab fa-instagram"></span
-          ></a>
-          <a
-            href="https://www.facebook.com/ecellslrtce.in/"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><span class="fab fa-facebook"></span
-          ></a>
-        </label>
+  </section>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__content container">
+      <img class="header__logo" src="./assets/img/logo-light.svg" alt="E-Cell SLRTCE" />
+      <h1 class="header__title">Entrepreneurship Cell<br />SLRTCE</h1>
+      <h3 class="header__subtitle">
+        Unconventional Ideas, Uncompromising Spirit.
+      </h3>
+      <div class="row">
+        <a href="#" class="btn ml-auto mr-auto header__button">Explore</a>
       </div>
-    </section>
-    <!-- Header -->
-    <header class="header">
-      <div class="header__content container">
-        <img
-          class="header__logo"
-          src="./assets/img/logo-light.svg"
-          alt="E-Cell SLRTCE"
-        />
-        <h1 class="header__title">Entrepreneurship Cell<br />SLRTCE</h1>
-        <h3 class="header__subtitle">
-          Unconventional Ideas, Uncompromising Spirit.
-        </h3>
-        <div class="row">
-          <a href="#" class="btn ml-auto mr-auto header__button">Explore</a>
-        </div>
-        <div class="header__socials">
-          <a
-            class="header__socials__icon"
-            href="https://www.facebook.com/ecellslrtce.in/"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-          <a
-            class="header__socials__icon"
-            href="https://www.instagram.com/ecell.slrtce/"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a
-            class="header__socials__icon"
-            href="https://www.linkedin.com/company/e-cell-slrtce"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-        </div>
+      <div class="header__socials">
+        <a class="header__socials__icon" href="https://www.facebook.com/ecellslrtce.in/" target="_blank"
+          rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+        <a class="header__socials__icon" href="https://www.instagram.com/ecell.slrtce/" target="_blank"
+          rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        <a class="header__socials__icon" href="https://www.linkedin.com/company/e-cell-slrtce" target="_blank"
+          rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- About us -->
-    <section class="about" id="about">
-      <div class="section-header">
-        <div class="mx-5 my-2">
-          <h1 class="section-title"><u>ABOUT US</u></h1>
-          <br />
-          <h2 class="section-tagline text-white">
-            As a team, we are a non-profitable student organization dedicated to
-            promote and explore the spirit of entrepreneurship & business among
-            students of SLRTCE. We function as a guide for students who come up
-            with creative ideas which can be transformed into successful
-            startups and companies.
-          </h2>
-          <hr class="section-hr" />
-        </div>
-      </div>
-      <div class="container">
-        <div class="card-deck mx-auto">
-          <div class="card">
-            <div class="card-img-top">
-              <i class="far fa-lightbulb"></i>
-            </div>
-            <div class="card-body">
-              <div class="card-title col-12"><u>VISION</u></div>
-              <div class="card-text mx-auto text-white">
-                We are resolute to inculcate entrepreneurial mindset and kindle
-                a burning desire in individuals to help them reach to the
-                pinnacle of success by furnishing them with exposure, managerial
-                skills, leadership skills and the platform to showcase their
-                creativity and dynamicity through making them familiar with the
-                real-life experience in a start-up.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-img-top">
-              <i class="far fa-lightbulb"></i>
-            </div>
-            <div class="card-body">
-              <div class="card-title col-12"><u>MISSION</u></div>
-              <div class="card-text mx-auto text-white">
-                Our mission at E-Cell is the development of entrepreneurship
-                through educational interventions, conducting various types of
-                training programs, promoting business knowledge and increasing
-                confidence in students by carrying out research studies,
-                evaluations and assessments.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Events -->
-    <section class="events" id="events">
-      <div class="section-header">
-        <h1 class="section-title">ACHIEVEMENTS & EVENTS</h1>
-        <h2 class="section-tagline">
-          A PEEK INTO ACTIVITIES AND ACHIEVEMENTS OVER THE YEAR
+  <!-- About us -->
+  <section class="about" id="about">
+    <div class="section-header">
+      <div class="mx-5 my-2">
+        <h1 class="section-title"><u>ABOUT US</u></h1>
+        <br />
+        <h2 class="section-tagline text-white">
+          As a team, we are a non-profitable student organization dedicated to
+          promote and explore the spirit of entrepreneurship & business among
+          students of SLRTCE. We function as a guide for students who come up
+          with creative ideas which can be transformed into successful
+          startups and companies.
         </h2>
         <hr class="section-hr" />
       </div>
-      <div class="container-sm">
-        <div class="card-columns">
-          <div class="card bg-dark text-white">
-            <img
-              src="\assets\events photos\event_1_cropped.jpg"
-              alt=""
-              class="card-img"
-              height="355"
-              width="450"
-            />
-            <div class="card-img-overlay">
-              <div class="position-relative h-100 align-items-center d-flex">
-                <h5 class="card-title">Orientation Session</h5>
-                <div class="card-text-wrapper">
-                  <p class="card-text text-white">
-                    First event conducted by IIT-B for our Core Team as a
-                    briefing on the annual calendar and events planned.
-                  </p>
-                  <a
-                    href="./events/event2.html"
-                    target="_blank"
-                    class="btn btn-primary btn-sm"
-                    >See Event <span class="fa fa-arrow-right"></span
-                  ></a>
-                </div>
-              </div>
+    </div>
+    <div class="container">
+      <div class="card-deck mx-auto">
+        <div class="card">
+          <div class="card-img-top">
+            <i class="far fa-lightbulb"></i>
+          </div>
+          <div class="card-body">
+            <div class="card-title col-12"><u>VISION</u></div>
+            <div class="card-text mx-auto text-white">
+              We are resolute to inculcate entrepreneurial mindset and kindle
+              a burning desire in individuals to help them reach to the
+              pinnacle of success by furnishing them with exposure, managerial
+              skills, leadership skills and the platform to showcase their
+              creativity and dynamicity through making them familiar with the
+              real-life experience in a start-up.
             </div>
           </div>
+        </div>
+        <div class="card">
+          <div class="card-img-top">
+            <i class="far fa-lightbulb"></i>
+          </div>
+          <div class="card-body">
+            <div class="card-title col-12"><u>MISSION</u></div>
+            <div class="card-text mx-auto text-white">
+              Our mission at E-Cell is the development of entrepreneurship
+              through educational interventions, conducting various types of
+              training programs, promoting business knowledge and increasing
+              confidence in students by carrying out research studies,
+              evaluations and assessments.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-          <div class="card bg-dark text-white">
-            <img
-              src="assets\events photos\ev-2.jpeg"
-              alt=""
-              class="card-img"
-              height="355"
-              width="450"
-            />
-            <div class="card-img-overlay">
-              <div class="position-relative h-100 align-items-center d-flex">
-                <h5 class="card-title">Induction session</h5>
-                <div class="card-text-wrapper">
-                  <p class="card-text text-white">
-                    E Cell organized an introductory meeting for welcoming our
-                    new committee members, getting to know each other and
-                    knowing the working mechanism of the commitee.
-                  </p>
-                  <a
-                    href="./events/event2.html"
-                    target="_blank"
-                    class="btn btn-primary btn-sm"
-                    >See Event <span class="fa fa-arrow-right"></span
-                  ></a>
-                </div>
+  <!-- Events -->
+  <section class="events" id="events">
+    <div class="section-header">
+      <h1 class="section-title">ACHIEVEMENTS & EVENTS</h1>
+      <h2 class="section-tagline">
+        A PEEK INTO ACTIVITIES AND ACHIEVEMENTS OVER THE YEAR
+      </h2>
+      <hr class="section-hr" />
+    </div>
+    <div class="container-sm">
+      <div class="card-columns">
+        <div class="card bg-dark text-white">
+          <img src="\assets\events photos\event_1_cropped.jpg" alt="" class="card-img" height="355" width="450" />
+          <div class="card-img-overlay">
+            <div class="position-relative h-100 align-items-center d-flex">
+              <h5 class="card-title">Orientation Session</h5>
+              <div class="card-text-wrapper">
+                <p class="card-text text-white">
+                  First event conducted by IIT-B for our Core Team as a
+                  briefing on the annual calendar and events planned.
+                </p>
+                <a href="./events/event2.html" target="_blank" class="btn btn-primary btn-sm">See Event <span
+                    class="fa fa-arrow-right"></span></a>
               </div>
             </div>
           </div>
-          <div class="card bg-dark text-white">
-            <img
-              src="https://place-hold.it/400x400/333.png"
-              alt=""
-              class="card-img"
-            />
-            <div class="card-img-overlay">
-              <div class="position-relative h-100 align-items-center d-flex">
-                <h5 class="card-title">Event name here</h5>
-                <div class="card-text-wrapper">
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Dolorum, impedit eligendi error fugiat aliquid iure?
-                  </p>
-                  <a href="/events/:id" class="btn btn-primary btn-sm"
-                    >See Event <span class="fa fa-arrow-right"></span
-                  ></a>
-                </div>
+        </div>
+
+
+        <div class="card bg-dark text-white">
+          <img src="https://place-hold.it/400x400/333.png" alt="" class="card-img" />
+          <div class="card-img-overlay">
+            <div class="position-relative h-100 align-items-center d-flex">
+              <h5 class="card-title">Event name here</h5>
+              <div class="card-text-wrapper">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolorum, impedit eligendi error fugiat aliquid iure?
+                </p>
+                <a href="/events/:id" class="btn btn-primary btn-sm">See Event <span
+                    class="fa fa-arrow-right"></span></a>
               </div>
             </div>
           </div>
-          <div class="card bg-dark text-white">
-            <img
-              src="https://place-hold.it/400x400/333.png"
-              alt=""
-              class="card-img"
-            />
-            <div class="card-img-overlay">
-              <div class="position-relative h-100 align-items-center d-flex">
-                <h5 class="card-title">Event name here</h5>
-                <div class="card-text-wrapper">
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Dolorum, impedit eligendi error fugiat aliquid iure?
-                  </p>
-                  <a href="/events/:id" class="btn btn-primary btn-sm"
-                    >See Event <span class="fa fa-arrow-right"></span
-                  ></a>
-                </div>
+        </div>
+        <div class="card bg-dark text-white">
+          <img src="assets\events photos\ev-2.jpeg" alt="" class="card-img" height="355" width="450" />
+          <div class="card-img-overlay">
+            <div class="position-relative h-100 align-items-center d-flex">
+              <h5 class="card-title">Induction session</h5>
+              <div class="card-text-wrapper">
+                <p class="card-text text-white">
+                  E Cell organized an introductory meeting for welcoming our
+                  new committee members, getting to know each other and
+                  knowing the working mechanism of the commitee.
+                </p>
+                <a href="./events/event2.html" target="_blank" class="btn btn-primary btn-sm">See Event <span
+                    class="fa fa-arrow-right"></span></a>
               </div>
             </div>
           </div>
-          <div class="card bg-dark text-white">
-            <img
-              src="https://place-hold.it/400x400/333.png"
-              alt=""
-              class="card-img"
-            />
-            <div class="card-img-overlay">
-              <div class="position-relative h-100 align-items-center d-flex">
-                <h5 class="card-title">Event name here</h5>
-                <div class="card-text-wrapper">
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Dolorum, impedit eligendi error fugiat aliquid iure?
-                  </p>
-                  <a href="/events/:id" class="btn btn-primary btn-sm"
-                    >See Event <span class="fa fa-arrow-right"></span
-                  ></a>
-                </div>
+        </div>
+        <div class="card bg-dark text-white">
+          <img src="https://place-hold.it/400x400/333.png" alt="" class="card-img" />
+          <div class="card-img-overlay">
+            <div class="position-relative h-100 align-items-center d-flex">
+              <h5 class="card-title">Event name here</h5>
+              <div class="card-text-wrapper">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolorum, impedit eligendi error fugiat aliquid iure?
+                </p>
+                <a href="/events/:id" class="btn btn-primary btn-sm">See Event <span
+                    class="fa fa-arrow-right"></span></a>
               </div>
             </div>
           </div>
-          <div class="card bg-dark text-white">
-            <img
-              src="https://place-hold.it/400x400/333.png"
-              alt=""
-              class="card-img"
-            />
-            <div class="card-img-overlay">
-              <div class="position-relative h-100 align-items-center d-flex">
-                <h5 class="card-title">Event name here</h5>
-                <div class="card-text-wrapper">
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Dolorum, impedit eligendi error fugiat aliquid iure?
-                  </p>
-                  <a href="/events/:id" class="btn btn-primary btn-sm"
-                    >See Event <span class="fa fa-arrow-right"></span
-                  ></a>
-                </div>
+        </div>
+        <div class="card bg-dark text-white">
+          <img src="https://place-hold.it/400x400/333.png" alt="" class="card-img" />
+          <div class="card-img-overlay">
+            <div class="position-relative h-100 align-items-center d-flex">
+              <h5 class="card-title">Event name here</h5>
+              <div class="card-text-wrapper">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolorum, impedit eligendi error fugiat aliquid iure?
+                </p>
+                <a href="/events/:id" class="btn btn-primary btn-sm">See Event <span
+                    class="fa fa-arrow-right"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-dark text-white">
+          <img src="https://place-hold.it/400x400/333.png" alt="" class="card-img" />
+          <div class="card-img-overlay">
+            <div class="position-relative h-100 align-items-center d-flex">
+              <h5 class="card-title">Event name here</h5>
+              <div class="card-text-wrapper">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolorum, impedit eligendi error fugiat aliquid iure?
+                </p>
+                <a href="/events/:id" class="btn btn-primary btn-sm">See Event <span
+                    class="fa fa-arrow-right"></span></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Team -->
-    <section class="team" id="team">
-      <div class="section-header">
-        <h1 class="section-title">OUR TEAM</h1>
-        <h2 class="section-tagline">ROLES AND CONTACTS</h2>
-        <hr class="section-hr" />
-      </div>
-      <div class="container">
-        <div class="card-deck justify-content-center align-items-center">
-          <div class="team-member">
-            <!-- <div class="card bg-dark text-white">
+  <!-- Team -->
+  <section class="team" id="team">
+    <div class="section-header">
+      <h1 class="section-title">OUR TEAM</h1>
+      <h2 class="section-tagline">ROLES AND CONTACTS</h2>
+      <hr class="section-hr" />
+    </div>
+    <div class="container">
+      <div class="card-deck justify-content-center align-items-center">
+        <div class="team-member">
+          <!-- <div class="card bg-dark text-white">
               <img
                 src="https://github.com/darshjain.png"
                 alt="User avatar"
@@ -355,7 +276,7 @@
                 </div>
               </div>
             </div> -->
-            <!-- <div class="text-center text-white member-info">
+          <!-- <div class="text-center text-white member-info">
               <h3>Diya Kathait</h3>
               <h5>Team Leader</h5>
             </div>
@@ -390,420 +311,299 @@
             </div>
           </div>
         </div> -->
-            <div class="card-deck justify-content-center align-items-center">
-              <div class="team-member">
-                <div class="card bg-dark text-white">
-                  <img
-                    src="assets\members_photo\devesh pandey.jpeg"
-                    alt="User avatar"
-                    class="card-img"
-                  />
-                  <div
-                    class="
+          <div class="card-deck justify-content-center align-items-center">
+            <div class="team-member">
+              <div class="card bg-dark text-white">
+                <img src="assets\members_photo\devesh pandey.jpeg" alt="User avatar" class="card-img" />
+                <div class="
                       card-img-overlay
                       text-center
                       justify-content-center
                       align-items-center
-                    "
-                  >
-                    <div
-                      class="
+                    ">
+                  <div class="
                         position-relative
                         h-100
                         justify-content-center
                         align-items-center
-                      "
-                    >
-                      <div class="card-text align-self-center">
-                        <h5>8928903995</h5>
-                        <p class="card-text">
-                          <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                          <a href="https://www.instagram.com/devesh___24/"
-                            ><i class="fab fa-instagram mr-2"></i
-                          ></a>
-                          <a
-                            href="https://www.linkedin.com/in/devesh-pandey-2792b9186"
-                            ><i class="fab fa-linkedin"></i
-                          ></a>
-                        </p>
-                      </div>
+                      ">
+                    <div class="card-text align-self-center">
+                      <h5>8928903995</h5>
+                      <p class="card-text">
+                        <a href=""><i class="fab fa-facebook mr-2"></i></a>
+                        <a href="https://www.instagram.com/devesh___24/"><i class="fab fa-instagram mr-2"></i></a>
+                        <a href="https://www.linkedin.com/in/devesh-pandey-2792b9186"><i
+                            class="fab fa-linkedin"></i></a>
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div class="text-center text-white member-info">
-                  <h3>Devesh Pandey</h3>
-                  <h5>Event & Management Head</h5>
-                </div>
               </div>
-              <div class="team-member">
-                <div class="card bg-dark text-white">
-                  <img
-                    src="assets\members_photo\diya kathait.jpeg"
-                    alt="User avatar"
-                    class="card-img"
-                  />
-                  <div
-                    class="
+              <div class="text-center text-white member-info">
+                <h3>Devesh Pandey</h3>
+                <h5>Event & Management Head</h5>
+              </div>
+            </div>
+            <div class="team-member">
+              <div class="card bg-dark text-white">
+                <img src="assets\members_photo\diya kathait.jpeg" alt="User avatar" class="card-img" />
+                <div class="
                       card-img-overlay
                       text-center
                       justify-content-center
                       align-items-center
-                    "
-                  >
-                    <div
-                      class="
+                    ">
+                  <div class="
                         position-relative
                         h-100
                         justify-content-center
                         align-items-center
-                      "
-                    >
-                      <div class="card-text align-self-center">
-                        <h5>9082167593</h5>
-                        <p class="card-text">
-                          <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                          <a href="https://www.instagram.com/diyaa.kathait"
-                            ><i class="fab fa-instagram mr-2"></i
-                          ></a>
-                          <a
-                            href="https://www.linkedin.com/in/diya-kathait-6b51121b2"
-                            ><i class="fab fa-linkedin"></i
-                          ></a>
-                        </p>
-                      </div>
+                      ">
+                    <div class="card-text align-self-center">
+                      <h5>9082167593</h5>
+                      <p class="card-text">
+                        <a href=""><i class="fab fa-facebook mr-2"></i></a>
+                        <a href="https://www.instagram.com/diyaa.kathait"><i class="fab fa-instagram mr-2"></i></a>
+                        <a href="https://www.linkedin.com/in/diya-kathait-6b51121b2"><i class="fab fa-linkedin"></i></a>
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div class="text-center text-white member-info">
-                  <h3>Diya Kathait</h3>
-                  <h5>Team Leader</h5>
-                </div>
               </div>
+              <div class="text-center text-white member-info">
+                <h3>Diya Kathait</h3>
+                <h5>Team Leader</h5>
+              </div>
+            </div>
 
-              <div class="team-member">
-                <div class="card bg-dark text-white">
-                  <img
-                    src="assets\members_photo\hitesh mewada.jpg"
-                    alt="User avatar"
-                    class="card-img"
-                  />
-                  <div
-                    class="
+            <div class="team-member">
+              <div class="card bg-dark text-white">
+                <img src="assets\members_photo\hitesh mewada.jpg" alt="User avatar" class="card-img" />
+                <div class="
                       card-img-overlay
                       text-center
                       justify-content-center
                       align-items-center
-                    "
-                  >
-                    <div
-                      class="
+                    ">
+                  <div class="
                         position-relative
                         h-100
                         justify-content-center
                         align-items-center
-                      "
-                    >
-                      <div class="card-text align-self-center">
-                        <h5>8850381647</h5>
-                        <p class="card-text">
-                          <a
-                            href="https://www.facebook.com/hitesh.mewada.90226"
-                            target="_blank"
-                            ><i class="fab fa-facebook mr-2"></i
-                          ></a>
-                          <a
-                            href="https://www.instagram.com/hitesh_mewaraa/"
-                            target="_blank"
-                            ><i class="fab fa-instagram mr-2"></i
-                          ></a>
-                          <a
-                            href="https://www.linkedin.com/in/hitu04"
-                            target="_blank"
-                            ><i class="fab fa-linkedin"></i
-                          ></a>
-                        </p>
-                      </div>
+                      ">
+                    <div class="card-text align-self-center">
+                      <h5>8850381647</h5>
+                      <p class="card-text">
+                        <a href="https://www.facebook.com/hitesh.mewada.90226" target="_blank"><i
+                            class="fab fa-facebook mr-2"></i></a>
+                        <a href="https://www.instagram.com/hitesh_mewaraa/" target="_blank"><i
+                            class="fab fa-instagram mr-2"></i></a>
+                        <a href="https://www.linkedin.com/in/hitu04" target="_blank"><i class="fab fa-linkedin"></i></a>
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div class="text-center text-white member-info">
-                  <h3>Hitesh Mewada</h3>
-                  <h5>Technical & Design Head</h5>
-                </div>
+              </div>
+              <div class="text-center text-white member-info">
+                <h3>Hitesh Mewada</h3>
+                <h5>Technical & Design Head</h5>
               </div>
             </div>
-            <div class="card-deck justify-content-center align-items-center">
-              <div class="team-member">
-                <div class="card bg-dark text-white">
-                  <img
-                    src="assets\members_photo\shivam gupta.jpg"
-                    alt="User avatar"
-                    class="card-img"
-                  />
-                  <div
-                    class="
+          </div>
+          <div class="card-deck justify-content-center align-items-center">
+            <div class="team-member">
+              <div class="card bg-dark text-white">
+                <img src="assets\members_photo\shivam gupta.jpg" alt="User avatar" class="card-img" />
+                <div class="
                       card-img-overlay
                       text-center
                       justify-content-center
                       align-items-center
-                    "
-                  >
-                    <div
-                      class="
+                    ">
+                  <div class="
                         position-relative
                         h-100
                         justify-content-center
                         align-items-center
-                      "
-                    >
-                      <div class="card-text align-self-center">
-                        <h5>8104761641</h5>
-                        <p class="card-text">
-                          <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                          <a href="https://www.instagram.com/shivampaix/"
-                            ><i class="fab fa-instagram mr-2"></i
-                          ></a>
-                          <a
-                            href="https://www.linkedin.com/in/shivam-gupta-728811195/"
-                            ><i class="fab fa-linkedin"></i
-                          ></a>
-                        </p>
-                      </div>
+                      ">
+                    <div class="card-text align-self-center">
+                      <h5>8104761641</h5>
+                      <p class="card-text">
+                        <a href=""><i class="fab fa-facebook mr-2"></i></a>
+                        <a href="https://www.instagram.com/shivampaix/"><i class="fab fa-instagram mr-2"></i></a>
+                        <a href="https://www.linkedin.com/in/shivam-gupta-728811195/"><i
+                            class="fab fa-linkedin"></i></a>
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div class="text-center text-white member-info">
-                  <h3>Shivam Gupta</h3>
-                  <h5>Marketing Head</h5>
-                </div>
               </div>
+              <div class="text-center text-white member-info">
+                <h3>Shivam Gupta</h3>
+                <h5>Marketing Head</h5>
+              </div>
+            </div>
 
-              <div class="team-member">
-                <div class="card bg-dark text-white">
-                  <img
-                    src="assets\members_photo\vatsal shah.jpeg"
-                    alt="User avatar"
-                    class="card-img"
-                  />
-                  <div
-                    class="
+            <div class="team-member">
+              <div class="card bg-dark text-white">
+                <img src="assets\members_photo\vatsal shah.jpeg" alt="User avatar" class="card-img" />
+                <div class="
                       card-img-overlay
                       text-center
                       justify-content-center
                       align-items-center
-                    "
-                  >
-                    <div
-                      class="
+                    ">
+                  <div class="
                         position-relative
                         h-100
                         justify-content-center
                         align-items-center
-                      "
-                    >
-                      <div class="card-text align-self-center">
-                        <h5>9869579733</h5>
-                        <p class="card-text">
-                          <a href="https://www.facebook.com/VATSAL SHAH"
-                            ><i class="fab fa-facebook mr-2"></i
-                          ></a>
-                          <a href="https://www.instagram.com/vatsal_shah133/"
-                            ><i class="fab fa-instagram mr-2"></i
-                          ></a>
-                          <a href="https://www.linkedin.com/in/vatsal-shah133"
-                            ><i class="fab fa-linkedin"></i
-                          ></a>
-                        </p>
-                      </div>
+                      ">
+                    <div class="card-text align-self-center">
+                      <h5>9869579733</h5>
+                      <p class="card-text">
+                        <a href="https://www.facebook.com/VATSAL SHAH"><i class="fab fa-facebook mr-2"></i></a>
+                        <a href="https://www.instagram.com/vatsal_shah133/"><i class="fab fa-instagram mr-2"></i></a>
+                        <a href="https://www.linkedin.com/in/vatsal-shah133"><i class="fab fa-linkedin"></i></a>
+                      </p>
                     </div>
                   </div>
-                </div>
-                <div class="text-center text-white member-info">
-                  <h3>Vatsal Shah</h3>
-                  <h5>Public Relations Head</h5>
                 </div>
               </div>
-              <div class="team-member">
-                <div class="card bg-dark text-white">
-                  <img
-                    src="assets\members_photo\nivedita rajbhar.jpeg"
-                    alt="User avatar"
-                    class="card-img"
-                  />
-                  <div
-                    class="
-                      card-img-overlay
-                      text-center
-                      justify-content-center
-                      align-items-center
-                    "
-                  >
-                    <div
-                      class="
-                        position-relative
-                        h-100
-                        justify-content-center
-                        align-items-center
-                      "
-                    >
-                      <div class="card-text align-self-center">
-                        <h5>8530581630</h5>
-                        <p class="card-text">
-                          <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                          <a href=""><i class="fab fa-instagram mr-2"></i></a>
-                          <a href="https://www.linkedin.com/in/nivedita-rajbhar"
-                            ><i class="fab fa-linkedin"></i
-                          ></a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="text-center text-white member-info">
-                  <h3>Nivedita Rajbhar</h3>
-                  <h5>Operations Head</h5>
-                </div>
+              <div class="text-center text-white member-info">
+                <h3>Vatsal Shah</h3>
+                <h5>Public Relations Head</h5>
               </div>
             </div>
-            <div class="card-deck justify-content-center align-items-center">
-              <div class="team-member">
-                <div class="card bg-dark text-white">
-                  <img
-                    src="assets\members_photo\ritu jha.jpeg"
-                    alt="User avatar"
-                    class="card-img"
-                  />
-                  <div
-                    class="
+            <div class="team-member">
+              <div class="card bg-dark text-white">
+                <img src="assets\members_photo\nivedita rajbhar.jpeg" alt="User avatar" class="card-img" />
+                <div class="
                       card-img-overlay
                       text-center
                       justify-content-center
                       align-items-center
-                    "
-                  >
-                    <div
-                      class="
+                    ">
+                  <div class="
                         position-relative
                         h-100
                         justify-content-center
                         align-items-center
-                      "
-                    >
-                      <div class="card-text align-self-center">
-                        <h5>9359370337</h5>
-                        <p class="card-text">
-                          <a href="https://www.facebook.com/Ritu Jha"
-                            ><i class="fab fa-facebook mr-2"></i
-                          ></a>
-                          <a href="https://www.instagram.com/ritujha333/"
-                            ><i class="fab fa-instagram mr-2"></i
-                          ></a>
-                          <a
-                            href="https://www.linkedin.com/in/ritu-jha-159b691b3"
-                            ><i class="fab fa-linkedin"></i
-                          ></a>
-                        </p>
-                      </div>
+                      ">
+                    <div class="card-text align-self-center">
+                      <h5>8530581630</h5>
+                      <p class="card-text">
+                        <a href=""><i class="fab fa-facebook mr-2"></i></a>
+                        <a href=""><i class="fab fa-instagram mr-2"></i></a>
+                        <a href="https://www.linkedin.com/in/nivedita-rajbhar"><i class="fab fa-linkedin"></i></a>
+                      </p>
                     </div>
                   </div>
-                </div>
-                <div class="text-center text-white member-info">
-                  <h3>Ritu Jha</h3>
-                  <h5>Editorial & Content Head</h5>
                 </div>
               </div>
-              <div class="team-member">
-                <div class="card bg-dark text-white">
-                  <img
-                    src="assets\members_photo\usama soparkar.jpeg"
-                    alt="User avatar"
-                    class="card-img"
-                  />
-                  <div
-                    class="
-                      card-img-overlay
-                      text-center
-                      justify-content-center
-                      align-items-center
-                    "
-                  >
-                    <div
-                      class="
-                        position-relative
-                        h-100
-                        justify-content-center
-                        align-items-center
-                      "
-                    >
-                      <div class="card-text align-self-center">
-                        <h5>7045209223</h5>
-                        <p class="card-text">
-                          <a href="https://www.facebook.com/Usama Soparkar"
-                            ><i class="fab fa-facebook mr-2"></i
-                          ></a>
-                          <a href="https://www.instagram.com/fireloadzuzu0/"
-                            ><i class="fab fa-instagram mr-2"></i
-                          ></a>
-                          <a
-                            href="https://www.linkedin.com/in/usama-soparkar-2169811a6"
-                            ><i class="fab fa-linkedin"></i
-                          ></a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="text-center text-white member-info">
-                  <h3>Usama Soparkar</h3>
-                  <h5>Speaker Session Head</h5>
-                </div>
-              </div>
-              <div class="team-member">
-                <div class="card bg-dark text-white">
-                  <img
-                    src="assets\members_photo\suraj maurya.jpg"
-                    alt="User avatar"
-                    class="card-img"
-                  />
-                  <div
-                    class="
-                      card-img-overlay
-                      text-center
-                      justify-content-center
-                      align-items-center
-                    "
-                  >
-                    <div
-                      class="
-                        position-relative
-                        h-100
-                        justify-content-center
-                        align-items-center
-                      "
-                    >
-                      <div class="card-text align-self-center">
-                        <h5>9769697116</h5>
-                        <p class="card-text">
-                          <a href=""><i class="fab fa-facebook mr-2"></i></a>
-                          <a href="https://www.instagram.com/suraj_mourya317/"
-                            ><i class="fab fa-instagram mr-2"></i
-                          ></a>
-                          <a
-                            href="https://www.linkedin.com/in/suraj-maurya-91291b1b6"
-                            ><i class="fab fa-linkedin"></i
-                          ></a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="text-center text-white member-info">
-                  <h3>Suraj Maurya</h3>
-                  <h5>Social Head</h5>
-                </div>
+              <div class="text-center text-white member-info">
+                <h3>Nivedita Rajbhar</h3>
+                <h5>Operations Head</h5>
               </div>
             </div>
-            <!-- <div class="card-deck justify-content-center align-items-center">
+          </div>
+          <div class="card-deck justify-content-center align-items-center">
+            <div class="team-member">
+              <div class="card bg-dark text-white">
+                <img src="assets\members_photo\ritu jha.jpeg" alt="User avatar" class="card-img" />
+                <div class="
+                      card-img-overlay
+                      text-center
+                      justify-content-center
+                      align-items-center
+                    ">
+                  <div class="
+                        position-relative
+                        h-100
+                        justify-content-center
+                        align-items-center
+                      ">
+                    <div class="card-text align-self-center">
+                      <h5>9359370337</h5>
+                      <p class="card-text">
+                        <a href="https://www.facebook.com/Ritu Jha"><i class="fab fa-facebook mr-2"></i></a>
+                        <a href="https://www.instagram.com/ritujha333/"><i class="fab fa-instagram mr-2"></i></a>
+                        <a href="https://www.linkedin.com/in/ritu-jha-159b691b3"><i class="fab fa-linkedin"></i></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center text-white member-info">
+                <h3>Ritu Jha</h3>
+                <h5>Editorial & Content Head</h5>
+              </div>
+            </div>
+            <div class="team-member">
+              <div class="card bg-dark text-white">
+                <img src="assets\members_photo\usama soparkar.jpeg" alt="User avatar" class="card-img" />
+                <div class="
+                      card-img-overlay
+                      text-center
+                      justify-content-center
+                      align-items-center
+                    ">
+                  <div class="
+                        position-relative
+                        h-100
+                        justify-content-center
+                        align-items-center
+                      ">
+                    <div class="card-text align-self-center">
+                      <h5>7045209223</h5>
+                      <p class="card-text">
+                        <a href="https://www.facebook.com/Usama Soparkar"><i class="fab fa-facebook mr-2"></i></a>
+                        <a href="https://www.instagram.com/fireloadzuzu0/"><i class="fab fa-instagram mr-2"></i></a>
+                        <a href="https://www.linkedin.com/in/usama-soparkar-2169811a6"><i
+                            class="fab fa-linkedin"></i></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center text-white member-info">
+                <h3>Usama Soparkar</h3>
+                <h5>Speaker Session Head</h5>
+              </div>
+            </div>
+            <div class="team-member">
+              <div class="card bg-dark text-white">
+                <img src="assets\members_photo\suraj maurya.jpg" alt="User avatar" class="card-img" />
+                <div class="
+                      card-img-overlay
+                      text-center
+                      justify-content-center
+                      align-items-center
+                    ">
+                  <div class="
+                        position-relative
+                        h-100
+                        justify-content-center
+                        align-items-center
+                      ">
+                    <div class="card-text align-self-center">
+                      <h5>9769697116</h5>
+                      <p class="card-text">
+                        <a href=""><i class="fab fa-facebook mr-2"></i></a>
+                        <a href="https://www.instagram.com/suraj_mourya317/"><i class="fab fa-instagram mr-2"></i></a>
+                        <a href="https://www.linkedin.com/in/suraj-maurya-91291b1b6"><i class="fab fa-linkedin"></i></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center text-white member-info">
+                <h3>Suraj Maurya</h3>
+                <h5>Social Head</h5>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="card-deck justify-content-center align-items-center">
           <div class="team-member">
             <div class="card bg-dark text-white">
               <img
@@ -828,7 +628,7 @@
                 </div>
               </div>
             </div> -->
-            <!-- <div class="text-center text-white member-info">
+          <!-- <div class="text-center text-white member-info">
               <h3>Bhargav Joshi</h3>
               <h5>Creative Head</h5>
             </div>
@@ -861,140 +661,91 @@
               <h3>Manish Pandey</h3>
               <h5>Social Media Head</h5>
             </div> -->
-          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact Form -->
-    <section class="contact" id="contact">
-      <div class="section-header">
-        <h1 class="section-title">CONTACT US</h1>
-        <h2 class="section-tagline">REACH OUT VIA FORM</h2>
-        <hr class="section-hr" />
-      </div>
-      <div class="container">
-        <form
-          class="contact__form"
-          action="https://formspree.io/f/meqpneog"
-          method="POST"
-        >
-          <div class="form-group contact__form__group">
-            <label class="contact__form__label" for="contact__name"
-              >Full Name</label
-            >
-            <input
-              type="text"
-              class="form-control contact__form__input"
-              id="contact__name"
-              aria-describedby="name"
-              name="name"
-            />
-          </div>
-          <div class="form-row contact__form__group">
-            <div class="col-md-6 mb-2">
-              <label class="contact__form__label" for="contact__email"
-                >Email Address</label
-              >
-              <input
-                type="email"
-                class="form-control contact__form__input"
-                id="contact__email"
-                name="email"
-              />
-            </div>
-            <div class="col-md-6">
-              <label class="contact__form__label" for="contact__phone"
-                >Phone Number</label
-              >
-              <input
-                type="text"
-                class="form-control contact__form__input"
-                id="contact__phone"
-                name="phone"
-              />
-            </div>
-          </div>
-          <div class="form-group contact__form__group mt-3">
-            <label class="contact__form__label" for="contact__query"
-              >Query</label
-            >
-            <textarea
-              id="contact__query"
-              class="form-control contact__form__input"
-              rows="5"
-              placeholder="I would like to enquire about..."
-              name="query"
-            ></textarea>
-          </div>
-          <div class="contact__form__button__container">
-            <button class="btn contact__form__button" type="submit">
-              Submit
-            </button>
-          </div>
-        </form>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer row mx-auto">
-      <div class="footer__about col-md-4">
-        <h2 class="section-tagline text-white">E-Cell SLRTCE</h2>
-        <hr class="section-hr" />
-        <p class="footer__text mt-3">
-          Unconventional Ideas.<br />Uncompromising Spirit.
-        </p>
-      </div>
-      <div class="footer__copyright col-md-4">
-        <h2 class="section-tagline text-white">Copyright</h2>
-        <hr class="section-hr" />
-        <p class="footer__text mt-3">Designed by E-Cell SLRTCE.</p>
-      </div>
-      <div class="footer__social col-md-4">
-        <h2 class="section-tagline text-white">Follow Us</h2>
-        <hr class="section-hr" />
-        <div class="footer__social__icons mt-3">
-          <a
-            class="footer__social__icon"
-            href="https://www.facebook.com/ecellslrtce.in/"
-            rel="noopener noreferrer"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-          <a
-            class="footer__social__icon"
-            href="https://www.instagram.com/ecell.slrtce/"
-            rel="noopener noreferrer"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a
-            class="footer__social__icon"
-            href="https://www.linkedin.com/company/e-cell-slrtce"
-            rel="noopener noreferrer"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
+  <!-- Contact Form -->
+  <section class="contact" id="contact">
+    <div class="section-header">
+      <h1 class="section-title">CONTACT US</h1>
+      <h2 class="section-tagline">REACH OUT VIA FORM</h2>
+      <hr class="section-hr" />
+    </div>
+    <div class="container">
+      <form class="contact__form" action="https://formspree.io/f/meqpneog" method="POST">
+        <div class="form-group contact__form__group">
+          <label class="contact__form__label" for="contact__name">Full Name</label>
+          <input type="text" class="form-control contact__form__input" id="contact__name" aria-describedby="name"
+            name="name" />
         </div>
-      </div>
-    </footer>
+        <div class="form-row contact__form__group">
+          <div class="col-md-6 mb-2">
+            <label class="contact__form__label" for="contact__email">Email Address</label>
+            <input type="email" class="form-control contact__form__input" id="contact__email" name="email" />
+          </div>
+          <div class="col-md-6">
+            <label class="contact__form__label" for="contact__phone">Phone Number</label>
+            <input type="text" class="form-control contact__form__input" id="contact__phone" name="phone" />
+          </div>
+        </div>
+        <div class="form-group contact__form__group mt-3">
+          <label class="contact__form__label" for="contact__query">Query</label>
+          <textarea id="contact__query" class="form-control contact__form__input" rows="5"
+            placeholder="I would like to enquire about..." name="query"></textarea>
+        </div>
+        <div class="contact__form__button__container">
+          <button class="btn contact__form__button" type="submit">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
 
-    <!-- Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Custom scripts -->
-    <script src="js/social-icon.js"></script>
-    <script src="js/navigation.js"></script>
-    <script src="js/contact-form-handler.js"></script>
-  </body>
+  <!-- Footer -->
+  <footer class="footer row mx-auto">
+    <div class="footer__about col-md-4">
+      <h2 class="section-tagline text-white">E-Cell SLRTCE</h2>
+      <hr class="section-hr" />
+      <p class="footer__text mt-3">
+        Unconventional Ideas.<br />Uncompromising Spirit.
+      </p>
+    </div>
+    <div class="footer__copyright col-md-4">
+      <h2 class="section-tagline text-white">Copyright</h2>
+      <hr class="section-hr" />
+      <p class="footer__text mt-3">Designed by E-Cell SLRTCE.</p>
+    </div>
+    <div class="footer__social col-md-4">
+      <h2 class="section-tagline text-white">Follow Us</h2>
+      <hr class="section-hr" />
+      <div class="footer__social__icons mt-3">
+        <a class="footer__social__icon" href="https://www.facebook.com/ecellslrtce.in/" rel="noopener noreferrer"><i
+            class="fab fa-facebook-f"></i></a>
+        <a class="footer__social__icon" href="https://www.instagram.com/ecell.slrtce/" rel="noopener noreferrer"><i
+            class="fab fa-instagram"></i></a>
+        <a class="footer__social__icon" href="https://www.linkedin.com/company/e-cell-slrtce"
+          rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!-- Custom scripts -->
+  <script src="js/social-icon.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/contact-form-handler.js"></script>
+</body>
+
 </html>
