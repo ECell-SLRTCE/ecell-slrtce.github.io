@@ -1,0 +1,23 @@
+head,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    color: #ee6e57;
+    text-align: center;
+}
+
+#desc {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    color: antiquewhite;
+    font-size: medium;
+}
+
+.p1 {
+    font-size: medium;
+}
