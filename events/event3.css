@@ -18,6 +18,22 @@ body {
     font-size: medium;
 }
 
+.ev-img
+{
+    border-radius: 10%;
+}
+
+.ev-description
+{
+    padding: 25px;
+    margin: 20px;
+    font-size: large;
+    color: antiquewhite;
+}
+
 .p1 {
     font-size: medium;
 }
+
+
+  
